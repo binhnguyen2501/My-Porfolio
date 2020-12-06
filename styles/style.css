@@ -432,8 +432,8 @@ header nav .nav-links .nav-links--link .link:hover {
   width: 30%;
   height: 100%;
   background: #ff6961;
-  -webkit-animation-duration: 1000ms;
-          animation-duration: 1000ms;
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
   -webkit-animation-name: red-flash;
           animation-name: red-flash;
   -webkit-animation-fill-mode: forwards;
