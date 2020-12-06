@@ -1,0 +1,50 @@
+$mainColor: #ff6961;
+$white: #fff;
+$black: #333;
+header {
+	min-width: 100%;
+	height: 100px;
+	z-index: 9999;
+	padding: 0 8% 0 8%;
+	display: flex;
+	justify-content: space-between;
+	.logo {
+		align-self: center;
+		a {
+			display: inline-block;
+			text-decoration: none;
+			font-weight: 400;
+			height: 44px;
+			line-height: 44px;
+			font-size: 18px;
+			color: $black;
+		}
+	}
+	nav {
+		width: 35%;
+		align-items: center;
+		align-self: center;
+		.nav-links {
+			display: flex;
+			justify-content: space-between;
+			list-style: none;
+			.nav-links--link {
+				color: $black;
+				display: inline-block;
+				padding-left: 30px;
+				padding-right: 30px;
+				height: 44px;
+				line-height: 44px;
+				font-size: 18px;
+				.link {
+					text-decoration: none;
+					color: #333;
+					font-weight: 650;
+					&:hover {
+						color: $mainColor;
+					}
+				}
+			}
+		}
+	}
+}
