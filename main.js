@@ -99,6 +99,11 @@ slider.addEventListener('transitionend', () =>{
         counter = slide.length - counter;
         slider.style.transform = 'translateX(' + ((-size)*counter) +'px)';
     }
+    for(let x=0; x<slide.length;x++){
+        sliderAll[x].classList.remove('slideAnimation');
+    }
+    let Index = counter+1
+    sliderAll[Index].classList.add('slideAnimation');
 })
 
 const sliderCurrent = document.querySelector('.sliderCurrent');
@@ -118,7 +123,6 @@ function nextTextSlide(){
     var k = index+1;
     var j = 33.33*k;
     sliderProgress.style.cssText = 'width:' +(j)+ '%';
-    
 }
 function changeTextSlide(){
     for(let i=0; i<TextSlide.length;i++){
