@@ -66,8 +66,8 @@
 				width: 100%;
 				overflow-x: scroll;
 				.homepage-banner--sliderMobile_wrapper {
-					display: block;
-					white-space: nowrap;
+					display: flex;
+					flex-wrap: nowrap;
 					padding: 0 5%;
 					.sliderAll {
 						display: inline-block;
@@ -83,20 +83,12 @@
 						.slider1-Content,
 						.slider2-Content,
 						.slider3-Content {
-							font-size: 0.8rem;
+							font-size: 0.9rem;
 							.lt,
 							.rt,
 							.lb,
 							.rb {
 								border-radius: 0;
-							}
-							.mainTitle {
-								border: 2px solid black;
-								width: 100%;
-							}
-							.descriptionTitle {
-								border: 2px solid black;
-								width: 100%;
 							}
 						}
 					}
