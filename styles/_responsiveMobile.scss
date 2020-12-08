@@ -3,6 +3,10 @@
 @import "./_footer";
 @import "./navbarMobilePage";
 @media screen and (max-width: 700px) {
+	.cursor,
+	.cursor2 {
+		display: none;
+	}
 	.header {
 		nav {
 			display: none;
@@ -27,12 +31,12 @@
 	}
 	/*HOMEPAGE*/
 	.container {
-		height: 105%;
-		padding: 0;
+		padding-top: 0;
+		padding-bottom: 4rem;
 		.container_homepage {
 			display: flex;
 			flex-direction: column;
-			gap: 2rem;
+			gap: 2.5rem;
 			.homepage-banner--slider,
 			.chuyenslide,
 			.text-transition {
@@ -57,7 +61,7 @@
 				width: 100%;
 				padding: 0 8%;
 				color: #888;
-				line-height: 1.7em;
+				line-height: 1.7rem;
 				text-align: left;
 			}
 			.homepage-banner--sliderMobile {
