@@ -59,6 +59,7 @@ $black: #333;
 		transition: transform 650ms ease-out;
 		transform: rotate(0deg);
 		display: none;
+		z-index: 99999;
 		.bar {
 			background: $mainColor;
 			border-radius: 0.8rem;
