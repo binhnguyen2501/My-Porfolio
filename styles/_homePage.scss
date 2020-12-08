@@ -2,10 +2,15 @@ $mainColor: #ff6961;
 $white: #fff;
 $black: #333;
 .container {
-	z-index: 9997;
 	margin: auto;
+	padding: 1.9rem 0;
+	background-color: lightcoral;
+	z-index: 9999;
 	.container_homepage {
 		position: relative;
+		.aboutMobile-title {
+			display: none;
+		}
 		/*TEXT SLIDER*/
 		.text-transition {
 			display: flex;

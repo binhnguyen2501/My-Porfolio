@@ -1,6 +1,7 @@
 @import "./_header";
 @import "./_homePage";
 @import "./_footer";
+@import "./navbarMobilePage";
 @import "./responsiveMobile";
 $mainColor: #ff6961;
 $white: #fff;
@@ -21,10 +22,9 @@ body {
 	color: $black;
 	overflow-x: hidden;
 }
-header,
+.header,
 .container,
-footer {
-	min-width: 960px;
+.footer {
 	margin: auto;
 	position: relative;
 }

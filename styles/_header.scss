@@ -1,14 +1,14 @@
 $mainColor: #ff6961;
 $white: #fff;
 $black: #333;
-header {
+.header {
 	min-width: 100%;
 	height: 100px;
-	z-index: 9999;
 	padding: 0 8% 0 8%;
 	display: flex;
 	position: relative;
 	justify-content: space-between;
+	background-color: lightblue;
 	.logo {
 		align-self: center;
 		a {

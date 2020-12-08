@@ -131,7 +131,9 @@ function changeTextSlide(){
     TextSlide[index].classList.add('active');
 }
 /*TOGGLER NAVBAR*/
-const navBar = document.querySelector('.menu-toggler')
+const navBar = document.querySelector('.menu-toggler');
+const navbarMobilePage = document.querySelector('.navbarMobile');
 navBar.addEventListener('click', function(){
     navBar.classList.toggle('open');
+    navbarMobilePage.classList.toggle('openPage');
 })
