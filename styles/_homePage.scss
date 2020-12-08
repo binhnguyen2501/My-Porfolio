@@ -4,11 +4,13 @@ $black: #333;
 .container {
 	margin: auto;
 	padding: 1.9rem 0;
-	background-color: lightcoral;
 	z-index: 9999;
 	.container_homepage {
 		position: relative;
 		.aboutMobile-title {
+			display: none;
+		}
+		.homepage-banner--sliderMobile {
 			display: none;
 		}
 		/*TEXT SLIDER*/

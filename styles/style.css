@@ -10,7 +10,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: lightblue;
 }
 
 .header .logo {
@@ -158,7 +157,6 @@
 .container {
   margin: auto;
   padding: 1.9rem 0;
-  background-color: lightcoral;
   z-index: 9999;
 }
 
@@ -170,6 +168,10 @@
 }
 
 .container .container_homepage .aboutMobile-title {
+  display: none;
+}
+
+.container .container_homepage .homepage-banner--sliderMobile {
   display: none;
 }
 
@@ -775,7 +777,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: lightblue;
 }
 
 .footer .contact {
@@ -891,7 +892,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: lightblue;
 }
 
 .header .logo {
@@ -1039,7 +1039,6 @@
 .container {
   margin: auto;
   padding: 1.9rem 0;
-  background-color: lightcoral;
   z-index: 9999;
 }
 
@@ -1051,6 +1050,10 @@
 }
 
 .container .container_homepage .aboutMobile-title {
+  display: none;
+}
+
+.container .container_homepage .homepage-banner--sliderMobile {
   display: none;
 }
 
@@ -1581,7 +1584,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: lightblue;
 }
 
 .footer .contact {
@@ -1687,9 +1689,6 @@
 }
 
 @media screen and (max-width: 700px) {
-  .header {
-    background-color: lightblue;
-  }
   .header nav {
     display: none;
   }
@@ -1699,8 +1698,7 @@
     display: flex;
   }
   .footer {
-    background-color: lightblue;
-    height: 170px;
+    height: 200px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1722,7 +1720,7 @@
   }
   /*HOMEPAGE*/
   .container {
-    height: 100%;
+    height: 105%;
     padding: 0;
   }
   .container .container_homepage {
@@ -1733,6 +1731,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 2rem;
   }
   .container .container_homepage .homepage-banner--slider,
   .container .container_homepage .chuyenslide,
@@ -1745,7 +1744,6 @@
     padding: 0 8%;
     line-height: 2.2em;
     width: 100%;
-    border: 3px solid black;
   }
   .container .container_homepage .homepage-title .sliderStatus {
     display: none !important;
@@ -1758,11 +1756,63 @@
     display: block !important;
     width: 100%;
     padding: 0 8%;
-    margin-top: 3rem;
     color: #888;
     line-height: 1.7em;
     text-align: left;
-    border: 3px solid black;
+  }
+  .container .container_homepage .homepage-banner--sliderMobile {
+    margin-top: 2rem;
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper {
+    display: block;
+    white-space: nowrap;
+    padding: 0 5%;
+  }
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin: 0 1rem;
+    border-radius: 0;
+  }
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 0;
+  }
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content {
+    font-size: 0.8rem;
+  }
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .lt,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .rt,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .lb,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .rb,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .lt,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .rt,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .lb,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .rb,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .lt,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .rt,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .lb,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .rb {
+    border-radius: 0;
+  }
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .mainTitle,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .mainTitle,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .mainTitle {
+    border: 2px solid black;
+    width: 100%;
+  }
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .descriptionTitle,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .descriptionTitle,
+  .container .container_homepage .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .descriptionTitle {
+    border: 2px solid black;
+    width: 100%;
   }
 }
 
