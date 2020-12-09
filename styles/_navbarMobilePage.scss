@@ -11,7 +11,7 @@ $black: #333;
 	display: none;
 	.img-mask {
 		position: absolute;
-		z-index: 2;
+		z-index: 99999;
 		background: $mainColor;
 	}
 	.lt {

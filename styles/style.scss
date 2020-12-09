@@ -2,7 +2,6 @@
 @import "./_homePage";
 @import "./_footer";
 @import "./navbarMobilePage";
-@import "./responsiveMobile";
 
 $mainColor: #ff6961;
 $white: #fff;
@@ -16,18 +15,11 @@ $black: #333;
 }
 html,
 body {
-	height: 100%;
 	background: $white;
 	font-weight: 400;
 	font-size: 17px;
 	color: $black;
 	overflow-x: hidden;
-}
-.header,
-.container,
-.footer {
-	margin: auto;
-	position: relative;
 }
 /*Cursor*/
 .cursor {
@@ -66,3 +58,5 @@ body {
 .link-grow_cursor2 {
 	opacity: 0;
 }
+@import "./responsiveTablet";
+@import "./responsiveMobile";

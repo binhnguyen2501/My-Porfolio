@@ -1,29 +1,29 @@
 $mainColor: #ff6961;
 $white: #fff;
 $black: #333;
+.containerMobile {
+	display: none;
+}
 .container {
-	margin: auto;
-	padding: 1.9rem 0;
-	z-index: 9999;
+	height: calc(100vh - 214px);
 	.container_homepage {
-		position: relative;
-		.aboutMobile-title {
-			display: none;
-		}
-		.homepage-banner--sliderMobile {
-			display: none;
-		}
+		height: calc(100vh - 214px);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		/*TEXT SLIDER*/
 		.text-transition {
 			display: flex;
 			list-style: none;
 			li {
 				display: none;
-				border: 2px solid black;
 				width: 100%;
 			}
 		}
 		/*REAL SLIDER*/
+		.homepage-banner--slider {
+			position: relative;
+		}
 		.homepage-banner--slider ul {
 			display: flex;
 			list-style: none;
