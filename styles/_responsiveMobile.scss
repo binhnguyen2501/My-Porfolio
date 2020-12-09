@@ -1,8 +1,4 @@
 @media screen and (max-width: 700px) {
-	.cursor,
-	.cursor2 {
-		display: none;
-	}
 	.header {
 		nav {
 			display: none;
@@ -120,6 +116,7 @@
 		}
 		.homepage-banner--sliderMobile {
 			width: 100%;
+			z-index: 2;
 			overflow-x: scroll;
 			.homepage-banner--sliderMobile_wrapper {
 				display: flex;

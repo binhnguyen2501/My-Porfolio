@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" type="text/css" href="./FontAwesome/fontawesome-free-5.15.1-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="logo"><a href="./index.html">Nguyen Ngoc Thanh <strong>Binh</strong></a></div>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-links--link"><a class="link" href="#">Works</a></li>
+                <li class="nav-links--link"><a class="link" href="#">About</a></li>
+                <li class="nav-links--link"><a class="link" href="./contact.html">Contact</a></li>
+                <li class="nav-links--link"><a class="link" href="#">Resume</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+    </div>
+    <!-- MAIN -->
+    <div class="mainTitle">
+        <div class="homepage-title--mainTitle">
+            <span class="line2"></span>
+            <p>Don't be a stranger</p>
+            <span class="line1"></span>
+        </div>
+        <div class="homepage-title--contentTitle">
+            <p>just say hello.</p>
+        </div>
+    </div>
+    <div class="container-Contact">
+        <div class="container-Contact--wrapper">
+            <div class="contact-wrapper--contentTitle">
+                <p>Please contact me. I'm always open to discuss new projects, creative ideas or opportunities to be
+                    part of your vision.
+                </p>
+            </div>
+            <div class="contact-wrapper--social">
+                <div class="contact">
+                    <span>My mail contact</span>
+                    <a class="contacts" href="#">binhq6@gmail.com</a>
+                </div>
+                <div class="tel">
+                    <span>My phone number</span>
+                    <a class="contacts" href="#">+84 39 766 56 60</a>
+                </div>
+                <div class="social">
+                    <a class="social-icon facebook" href="https://www.facebook.com/thanhbinh2501"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="social-icon skype" href="#"><i class="fab fa-skype"></i></a>
+                    <a class="social-icon twiter" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="social-icon instagram" href="https://www.instagram.com/thanhbinh98_/?hl=vi"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="social-icon linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-Contact--form">
+            <form>
+                <div>
+                    <input id="contact-name" type="text" name="name" placeholder="Name...">
+                </div>
+                <div>
+                    <input id="contact-mail" type="text" name="email" placeholder="E-mail...">
+                </div>
+                <div>
+                    <select id="contact-budget" name="budget">
+                        <option selected="false" disabled="disabled">Budget</option>
+                        <option value="1000-2500">$100 - $500</option>
+                        <option value="2500-5000">$500 - $1000</option>
+                        <option value="5000-10000">$1000 - $2000</option>
+                        <option value="10000+">$2000+</option>
+                    </select>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <div>
+                    <textarea id="contact-detail" rows="7" name="details" placeholder="Project Description"></textarea>
+                </div>
+                <div class="lastForm">
+                    <button class="contact-submit" href="#" type="submit" name="submit">Send to me</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- NAVBAR-MOBILE -->
+    <div class="navbarMobile">
+        <span class="img-mask lt lt-active"></span>
+        <span class="img-mask rt rt-active"></span>
+        <span class="img-mask lb lb-active"></span>
+        <span class="img-mask rb rb-active"></span>
+        <ul class="nav-links--mobile">
+            <li class="nav-links--mobile----link"><a class="link" href="#">Works</a></li>
+            <li class="nav-links--mobile----link"><a class="link" href="#">About</a></li>
+            <li class="nav-links--mobile----link"><a class="link" href="./contact.html">Contact</a></li>
+            <li class="nav-links--mobile----link"><a class="link" href="#">Resume</a></li>
+        </ul>
+    </div>
+    <!-- CURSORS -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <!-- JS -->
+    <script src="./contact.js"></script>
+</body>
+
+</html>

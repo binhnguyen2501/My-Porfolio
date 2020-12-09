@@ -1,6 +1,6 @@
-@import "./_header";
-@import "./_homePage";
-@import "./_footer";
+@import "./header";
+@import "./homePage";
+@import "./footer";
 @import "./navbarMobilePage";
 
 $mainColor: #ff6961;
@@ -58,5 +58,7 @@ body {
 .link-grow_cursor2 {
 	opacity: 0;
 }
+
 @import "./responsiveTablet";
 @import "./responsiveMobile";
+@import "./Contact";
