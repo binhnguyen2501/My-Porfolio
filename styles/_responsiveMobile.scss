@@ -11,6 +11,7 @@
 		flex-direction: column;
 		justify-content: space-evenly;
 		height: 200px;
+		padding: 0 8%;
 		.contact,
 		.tel,
 		.social {
@@ -288,7 +289,6 @@
 	.container-Contact--wrapper,
 	.container-Contact--form {
 		width: 100% !important;
-		padding: 0 3%;
 	}
 	.contact-wrapper--social {
 		display: none !important;

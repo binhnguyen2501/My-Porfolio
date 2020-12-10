@@ -530,6 +530,7 @@
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     height: 200px;
+    padding: 0 8%;
   }
   .footer .contact,
   .footer .tel,
@@ -890,7 +891,6 @@
   .container-Contact--wrapper,
   .container-Contact--form {
     width: 100% !important;
-    padding: 0 3%;
   }
   .contact-wrapper--social {
     display: none !important;
