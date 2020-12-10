@@ -4,12 +4,38 @@
 		display: none;
 	}
 }
+@media screen and (max-width: 1024px) {
+	/*CONTACT PAGE*/
+	.AllTitle,
+	.container-Contact {
+		padding: 0 8%;
+	}
+	.AllTitle .homepage-title--mainTitle .line2 {
+		width: 53%;
+	}
+}
 
 @media screen and (max-width: 900px) {
-	.header {
-		padding: 0 3% 0 3%;
-	}
+	.header,
 	.footer {
 		padding: 0 3% 0 3%;
+	}
+	/*CONTACT PAGE*/
+	.AllTitle {
+		width: 100%;
+		padding: 0 8%;
+		.homepage-title--mainTitle .line2 {
+			width: 63%;
+		}
+	}
+	.container-Contact {
+		width: 100%;
+		padding: 0 8%;
+		padding-bottom: 2rem;
+		display: flex;
+		flex-direction: column;
+		.container-Contact--form {
+			width: 100%;
+		}
 	}
 }

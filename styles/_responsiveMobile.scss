@@ -21,7 +21,6 @@
 			gap: 2rem;
 		}
 	}
-	/*HOMEPAGE*/
 	.container {
 		display: none;
 	}
@@ -267,5 +266,34 @@
 				}
 			}
 		}
+	}
+	/*CONTACT PAGE*/
+	.menu-toggler {
+		position: absolute !important;
+		right: 1rem !important;
+	}
+	.AllTitle {
+		width: 100%;
+		margin-top: 40px;
+		font-size: 0.75rem;
+		padding: 0 6%;
+		.homepage-title--mainTitle .line2 {
+			width: 85%;
+		}
+	}
+	.container-Contact {
+		flex-direction: column;
+		width: 100%;
+	}
+	.container-Contact--wrapper,
+	.container-Contact--form {
+		width: 100% !important;
+		padding: 0 3%;
+	}
+	.contact-wrapper--social {
+		display: none !important;
+	}
+	.footer {
+		display: flex;
 	}
 }

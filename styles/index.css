@@ -1,113 +1,3 @@
-.footer {
-  min-width: 100%;
-  height: 114px;
-  padding: 0 8% 0 8%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.footer .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-item-align: center;
-      align-self: center;
-}
-
-.footer .contact a {
-  text-decoration: none;
-  display: block;
-  font-weight: 700;
-  font-size: 18px;
-  margin-top: 4px;
-  color: #333;
-}
-
-.footer .contact a:hover {
-  color: #ff6961;
-}
-
-.footer .contact span {
-  display: block;
-  color: #aaa;
-  font-size: 0.75em;
-}
-
-.footer .tel {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-item-align: center;
-      align-self: center;
-}
-
-.footer .tel a {
-  text-decoration: none;
-  display: block;
-  font-weight: 700;
-  font-size: 18px;
-  margin-top: 4px;
-  color: #333;
-}
-
-.footer .tel a:hover {
-  color: #ff6961;
-}
-
-.footer .tel span {
-  display: block;
-  color: #aaa;
-  font-size: 0.75em;
-}
-
-.footer .social {
-  width: 40%;
-  -ms-flex-item-align: center;
-      align-self: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  gap: 3rem;
-}
-
-.footer .social .social-icon {
-  display: inline-block;
-  height: 44px;
-  line-height: 44px;
-  color: #333;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.footer .social .social-icon:hover {
-  color: #ff6961;
-}
-
-.footer .social .social-icon .fab {
-  font-size: 1.35em;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
-
 .containerMobile {
   display: none;
 }
@@ -581,12 +471,44 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .header {
-    padding: 0 3% 0 3%;
+@media screen and (max-width: 1024px) {
+  /*CONTACT PAGE*/
+  .AllTitle,
+  .container-Contact {
+    padding: 0 8%;
   }
+  .AllTitle .homepage-title--mainTitle .line2 {
+    width: 53%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header,
   .footer {
     padding: 0 3% 0 3%;
+  }
+  /*CONTACT PAGE*/
+  .AllTitle {
+    width: 100%;
+    padding: 0 8%;
+  }
+  .AllTitle .homepage-title--mainTitle .line2 {
+    width: 63%;
+  }
+  .container-Contact {
+    width: 100%;
+    padding: 0 8%;
+    padding-bottom: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-Contact .container-Contact--form {
+    width: 100%;
   }
 }
 
@@ -620,7 +542,6 @@
             justify-content: flex-start;
     gap: 2rem;
   }
-  /*HOMEPAGE*/
   .container {
     display: none;
   }
@@ -944,6 +865,40 @@
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn button a {
     text-decoration: none;
     color: #fff;
+  }
+  /*CONTACT PAGE*/
+  .menu-toggler {
+    position: absolute !important;
+    right: 1rem !important;
+  }
+  .AllTitle {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 0.75rem;
+    padding: 0 6%;
+  }
+  .AllTitle .homepage-title--mainTitle .line2 {
+    width: 85%;
+  }
+  .container-Contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .container-Contact--wrapper,
+  .container-Contact--form {
+    width: 100% !important;
+    padding: 0 3%;
+  }
+  .contact-wrapper--social {
+    display: none !important;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=index.css.map */
