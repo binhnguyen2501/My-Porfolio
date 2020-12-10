@@ -285,9 +285,9 @@ $black: #333;
 					overflow: hidden;
 					height: 1.3em;
 					line-height: 1.3em;
-				}
-				p:hover {
-					transform: scale(1.1);
+					&:hover {
+						transform: scale(1.1);
+					}
 				}
 			}
 			.allWork {

@@ -70,6 +70,11 @@
   line-height: 1.3em;
 }
 
+.AllTitle .homepage-title--contentTitle p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .container-Contact {
   color: #888;
   font-weight: 600;

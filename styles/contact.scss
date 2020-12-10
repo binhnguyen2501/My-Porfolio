@@ -51,6 +51,9 @@ $black: #333;
 			overflow: hidden;
 			height: 1.3em;
 			line-height: 1.3em;
+			&:hover {
+				transform: scale(1.1);
+			}
 		}
 	}
 }
