@@ -1,0 +1,203 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.AllTitle {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 65px;
+  font-weight: 700;
+  position: relative;
+}
+
+.AllTitle .homepage-title--mainTitle {
+  position: relative;
+  color: #333;
+  font-size: 2.6em;
+  z-index: 99;
+  opacity: 0;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: fade-in-text;
+          animation-name: fade-in-text;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transition: all 1500ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 1500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.AllTitle .homepage-title--mainTitle .line1 {
+  position: absolute;
+  bottom: 5px;
+  left: -15px;
+  background: #dddddd;
+  height: 8px;
+  width: 10%;
+  z-index: -1;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-name: grey-flash;
+          animation-name: grey-flash;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.AllTitle .homepage-title--mainTitle .line2 {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background: #e9b911;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: red-flash;
+          animation-name: red-flash;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.AllTitle .homepage-title--contentTitle {
+  font-size: 2.5rem;
+}
+
+.AllTitle .homepage-title--contentTitle p {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 1.3em;
+  line-height: 1.3em;
+}
+
+.AllTitle .homepage-title--contentTitle p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container-About {
+  color: #888;
+  font-weight: 600;
+  line-height: 1.7rem;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-About .container-About--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.5rem;
+}
+
+.container-About .container-About--wrapper .About---wrapperTitle {
+  width: 45%;
+  line-height: 1.7em;
+}
+
+.container-About .container-About--wrapper .About---wrapperTitle .about-name {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.container-About .container-About--wrapper .About---wrapperTitle .about-name strong {
+  color: #333;
+  font-weight: 700;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill {
+  width: 55%;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .me {
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill h3 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .timelineStudy {
+  border-left: 4px solid #e9b911;
+  border-radius: 0.8rem;
+  margin: 1rem auto;
+  margin-bottom: 2rem;
+  position: relative;
+  padding: 1.5rem 2rem 0 2rem;
+  list-style: none;
+  text-align: left;
+  width: 100%;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  list-style: none;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date::after, .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date::before {
+  position: absolute;
+  display: block;
+  top: 15%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date::after {
+  content: "";
+  -webkit-box-shadow: 0 0 0 4px #333;
+          box-shadow: 0 0 0 4px #333;
+  border-radius: 100%;
+  left: -2.5rem;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #fff;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date::before {
+  content: attr(date-date);
+  left: -15.5rem;
+  text-align: right;
+  min-width: 12rem;
+  font-size: 1rem;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .skill p {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 0.3rem 0 0.3rem 0.3rem;
+  float: left;
+}
+
+.container-About .container-About--content {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.container-About .container-About--content span {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.container-About .container-About--content p {
+  margin-top: 1rem;
+}
+
+.container-About .container-About--content p strong {
+  color: #333;
+}
+/*# sourceMappingURL=about.css.map */
