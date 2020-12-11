@@ -46,7 +46,7 @@
   position: absolute;
   width: 45%;
   height: 100%;
-  background: #ff6961;
+  background: #e9b911;
   -webkit-animation-duration: 1000ms;
           animation-duration: 1000ms;
   -webkit-animation-name: red-flash;
@@ -124,7 +124,7 @@
 }
 
 .container-Contact .container-Contact--wrapper .contact-wrapper--social .contact a:hover {
-  color: #ff6961;
+  color: #e9b911;
 }
 
 .container-Contact .container-Contact--wrapper .contact-wrapper--social .contact span {
@@ -152,7 +152,7 @@
 }
 
 .container-Contact .container-Contact--wrapper .contact-wrapper--social .tel a:hover {
-  color: #ff6961;
+  color: #e9b911;
 }
 
 .container-Contact .container-Contact--wrapper .contact-wrapper--social .tel span {
@@ -181,7 +181,7 @@
 }
 
 .container-Contact .container-Contact--wrapper .contact-wrapper--social .social .social-icon:hover {
-  color: #ff6961;
+  color: #e9b911;
 }
 
 .container-Contact .container-Contact--wrapper .contact-wrapper--social .social .social-icon .fab {
@@ -235,7 +235,7 @@
 }
 
 .container-Contact .container-Contact--form button {
-  background-color: #ff6961;
+  background-color: #e9b911;
   padding-left: 20px;
   padding-right: 20px;
   height: 44px;
@@ -435,7 +435,7 @@
     position: absolute;
     width: 30%;
     height: 100%;
-    background: #ff6961;
+    background: #e9b911;
     -webkit-animation-duration: 1000ms;
             animation-duration: 1000ms;
     -webkit-animation-name: red-flash;
@@ -464,7 +464,7 @@
   }
   .containerMobile .homepage-titleMobile .allWork button {
     margin-top: 30px;
-    background: #ff6961;
+    background: #e9b911;
     padding-left: 20px;
     padding-right: 20px;
     height: 44px;
@@ -532,7 +532,7 @@
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .img-mask {
     position: absolute;
     z-index: 2;
-    background: #ff6961;
+    background: #e9b911;
   }
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .lt,
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .lt,
@@ -677,7 +677,7 @@
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn button,
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn button,
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn button {
-    background: #ff6961;
+    background: #e9b911;
     border: none;
     font-weight: 600;
     font-size: 1rem;
