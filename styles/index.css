@@ -437,6 +437,11 @@
   border-radius: 10px;
 }
 
+.container .container_homepage .homepage-title .allWork button:hover {
+  background: #333;
+  color: #fff;
+}
+
 .container .container_homepage .homepage-title .sliderStatus {
   display: -webkit-box;
   display: -ms-flexbox;

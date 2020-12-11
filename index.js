@@ -1,3 +1,4 @@
+/*CURSOR*/
 const sliderAll = document.querySelectorAll('.sliderAll');
 sliderAll.forEach(allslide => {
     allslide.addEventListener('mouseover', function(){

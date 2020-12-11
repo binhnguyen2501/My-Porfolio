@@ -85,9 +85,17 @@ $black: #333;
 		}
 		.About---wrapperSkill {
 			width: 55%;
-			.me {
-				width: 90%;
-				margin-bottom: 3rem;
+			.me-img {
+				width: 100%;
+				overflow: hidden;
+				.me {
+					display: block;
+					width: 90%;
+					margin-bottom: 3rem;
+					&:hover {
+						transform: scale(1.1);
+					}
+				}
 			}
 			h3 {
 				color: $black;
@@ -140,6 +148,10 @@ $black: #333;
 				border-radius: 15px;
 				margin: 0.3rem 0 0.3rem 0.3rem;
 				float: left;
+				&:hover {
+					background: $mainColor;
+					color: $white;
+				}
 			}
 		}
 	}

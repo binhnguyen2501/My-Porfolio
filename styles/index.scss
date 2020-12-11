@@ -300,13 +300,17 @@ $black: #333;
 					height: 44px;
 					line-height: 44px;
 					text-align: center;
-					color: #fff;
+					color: $white;
 					border: 0;
 					outline: none;
 					font-weight: 700;
 					font-size: 17px;
 					cursor: pointer;
 					border-radius: 10px;
+					&:hover {
+						background: $black;
+						color: $white;
+					}
 				}
 			}
 			.sliderStatus {
