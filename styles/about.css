@@ -442,7 +442,7 @@
   }
   .containerMobile .homepage-titleMobile .homepage-title--mainTitle .line2 {
     position: absolute;
-    width: 30%;
+    width: 25%;
     height: 100%;
     background: #e9b911;
     -webkit-animation-duration: 1000ms;
@@ -779,6 +779,9 @@
 }
 
 @media screen and (max-width: 400px) {
+  .containerMobile .homepage-titleMobile .homepage-title--mainTitle .line2 {
+    width: 28%;
+  }
   /*CONTACT PAGE*/
   .AllTitle {
     font-size: 0.65rem;
