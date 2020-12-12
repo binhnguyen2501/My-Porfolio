@@ -115,7 +115,7 @@
 
 .container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 {
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 span {
@@ -255,7 +255,7 @@
   }
   /*ABOUT PAGE*/
   .AllTitle .homepage-title--mainTitle .line2-about {
-    width: 35%;
+    width: 36%;
   }
   .container-About {
     width: 100%;
@@ -303,7 +303,7 @@
   }
   /*ABOUT PAGE*/
   .AllTitle .homepage-title--mainTitle .line2-about {
-    width: 43%;
+    width: 45%;
   }
   .container-About {
     width: 100%;
@@ -711,7 +711,7 @@
     padding: 0 6%;
   }
   .AllTitle .homepage-title--mainTitle .line2-contact {
-    width: 97%;
+    width: 85%;
   }
   .container-Contact {
     -webkit-box-orient: vertical;
@@ -734,7 +734,7 @@
   }
   /*ABOUT PAGE*/
   .AllTitle .homepage-title--mainTitle .line2-about {
-    width: 68%;
+    width: 60%;
   }
   .container-About {
     width: 100%;
@@ -775,6 +775,23 @@
     display: block !important;
     width: 100%;
     padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /*CONTACT PAGE*/
+  .AllTitle {
+    font-size: 0.65rem;
+  }
+  .AllTitle .homepage-title--mainTitle .line2-contact {
+    width: 97%;
+  }
+  .AllTitle .homepage-title--contentTitle {
+    font-size: 2rem;
+  }
+  /*ABOUT PAGE*/
+  .container-About .container-About--wrapper .About---wrapperTitle .about-name {
+    font-size: 0.9rem;
   }
 }
 /*# sourceMappingURL=about.css.map */

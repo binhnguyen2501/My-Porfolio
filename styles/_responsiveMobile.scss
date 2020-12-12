@@ -279,7 +279,7 @@
 		font-size: 0.75rem;
 		padding: 0 6%;
 		.homepage-title--mainTitle .line2-contact {
-			width: 97%;
+			width: 85%;
 		}
 	}
 	.container-Contact {
@@ -299,7 +299,7 @@
 	/*ABOUT PAGE*/
 	.AllTitle {
 		.homepage-title--mainTitle .line2-about {
-			width: 68%;
+			width: 60%;
 		}
 	}
 	.container-About {
@@ -337,6 +337,29 @@
 			display: block !important;
 			width: 100%;
 			padding: 0 5%;
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	/*CONTACT PAGE*/
+	.AllTitle {
+		font-size: 0.65rem;
+		.homepage-title--mainTitle .line2-contact {
+			width: 97%;
+		}
+		.homepage-title--contentTitle {
+			font-size: 2rem;
+		}
+	}
+	/*ABOUT PAGE*/
+	.container-About {
+		.container-About--wrapper {
+			.About---wrapperTitle {
+				.about-name {
+					font-size: 0.9rem;
+				}
+			}
 		}
 	}
 }
