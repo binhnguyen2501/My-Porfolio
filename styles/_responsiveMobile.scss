@@ -278,8 +278,8 @@
 		margin-top: 40px;
 		font-size: 0.75rem;
 		padding: 0 6%;
-		.homepage-title--mainTitle .line2 {
-			width: 85%;
+		.homepage-title--mainTitle .line2-contact {
+			width: 97%;
 		}
 	}
 	.container-Contact {
@@ -297,4 +297,46 @@
 		display: flex;
 	}
 	/*ABOUT PAGE*/
+	.AllTitle {
+		.homepage-title--mainTitle .line2-about {
+			width: 68%;
+		}
+	}
+	.container-About {
+		width: 100%;
+		.container-About--wrapper {
+			width: 100%;
+			flex-direction: column;
+			gap: 1.5rem;
+			.About---wrapperTitle {
+				width: 100%;
+				font-size: 0.9rem;
+				padding: 0 5%;
+				.container-About--content1 {
+					display: none;
+				}
+				.about-name {
+					font-size: 1.05rem;
+				}
+			}
+			.About---wrapperSkill {
+				padding: 0 5%;
+				width: 100%;
+				.me-img {
+					width: 100%;
+					.me {
+						width: 100%;
+					}
+				}
+				.timelineStudy {
+					font-size: 0.9rem;
+				}
+			}
+		}
+		.container-About--content2 {
+			display: block !important;
+			width: 100%;
+			padding: 0 5%;
+		}
+	}
 }

@@ -8,10 +8,28 @@
 	/*CONTACT PAGE*/
 	.AllTitle,
 	.container-Contact {
-		padding: 0 8%;
+		padding: 0 10%;
 	}
-	.AllTitle .homepage-title--mainTitle .line2 {
-		width: 53%;
+	.AllTitle .homepage-title--mainTitle .line2-contact {
+		width: 55%;
+	}
+	/*ABOUT PAGE*/
+	.AllTitle .homepage-title--mainTitle .line2-about {
+		width: 35%;
+	}
+	.container-About {
+		width: 100%;
+		.container-About--wrapper {
+			width: 100%;
+			gap: 1rem;
+			.About---wrapperTitle {
+				width: 50%;
+				padding: 0 4%;
+				.container-About--content1 {
+					margin-top: 6.1rem;
+				}
+			}
+		}
 	}
 }
 
@@ -24,7 +42,7 @@
 	.AllTitle {
 		width: 100%;
 		padding: 0 8%;
-		.homepage-title--mainTitle .line2 {
+		.homepage-title--mainTitle .line2-contact {
 			width: 63%;
 		}
 	}
@@ -36,6 +54,46 @@
 		flex-direction: column;
 		.container-Contact--form {
 			width: 100%;
+		}
+	}
+	/*ABOUT PAGE*/
+	.AllTitle {
+		.homepage-title--mainTitle .line2-about {
+			width: 43%;
+		}
+	}
+	.container-About {
+		width: 100%;
+		.container-About--wrapper {
+			width: 100%;
+			flex-direction: column;
+			.About---wrapperTitle {
+				width: 100%;
+				font-size: 0.9rem;
+				padding: 0 7%;
+				.container-About--content1 {
+					display: none;
+				}
+			}
+			.About---wrapperSkill {
+				padding: 0 17%;
+				width: 100%;
+				margin-top: 2rem;
+				.me-img {
+					width: 100%;
+					.me {
+						width: 100%;
+					}
+				}
+				.timelineStudy {
+					font-size: 0.9rem;
+				}
+			}
+		}
+		.container-About--content2 {
+			display: block !important;
+			width: 100%;
+			padding: 0 17%;
 		}
 	}
 }
