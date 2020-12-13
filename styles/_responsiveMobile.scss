@@ -346,7 +346,7 @@
 		.homepage-titleMobile {
 			.homepage-title--mainTitle {
 				.line2 {
-					width: 28%;
+					width: 32%;
 				}
 			}
 		}
@@ -362,6 +362,11 @@
 		}
 	}
 	/*ABOUT PAGE*/
+	.AllTitle {
+		.homepage-title--mainTitle .line2-about {
+			width: 65%;
+		}
+	}
 	.container-About {
 		.container-About--wrapper {
 			.About---wrapperTitle {

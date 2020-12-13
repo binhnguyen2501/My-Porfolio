@@ -1013,7 +1013,7 @@
 
 @media screen and (max-width: 400px) {
   .containerMobile .homepage-titleMobile .homepage-title--mainTitle .line2 {
-    width: 28%;
+    width: 32%;
   }
   /*CONTACT PAGE*/
   .AllTitle {
@@ -1026,6 +1026,9 @@
     font-size: 2rem;
   }
   /*ABOUT PAGE*/
+  .AllTitle .homepage-title--mainTitle .line2-about {
+    width: 65%;
+  }
   .container-About .container-About--wrapper .About---wrapperTitle .about-name {
     font-size: 0.9rem;
   }
