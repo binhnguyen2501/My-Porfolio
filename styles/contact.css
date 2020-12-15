@@ -86,11 +86,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .container-Contact .container-Contact--wrapper {
   width: 50%;
+}
+
+.container-Contact .container-Contact--wrapper .contact-wrapper--contentTitle {
+  text-align: justify;
 }
 
 .container-Contact .container-Contact--wrapper .contact-wrapper--social {

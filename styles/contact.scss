@@ -66,9 +66,12 @@ $black: #333;
 	margin-top: 50px;
 	position: relative;
 	display: flex;
-	gap: 2rem;
+	gap: 3rem;
 	.container-Contact--wrapper {
 		width: 50%;
+		.contact-wrapper--contentTitle {
+			text-align: justify;
+		}
 		.contact-wrapper--social {
 			margin-top: 3rem;
 			display: flex;
