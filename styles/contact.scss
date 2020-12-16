@@ -1,6 +1,9 @@
 $mainColor: #e9b911;
 $white: #fff;
 $black: #333;
+.footer {
+	display: none;
+}
 .AllTitle {
 	width: 960px;
 	margin: 0 auto;
@@ -196,9 +199,6 @@ $black: #333;
 			}
 		}
 	}
-}
-.footer {
-	display: none;
 }
 @import "./responsiveTablet";
 @import "./responsiveMobile";

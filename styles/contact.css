@@ -1,3 +1,7 @@
+.footer {
+  display: none;
+}
+
 .AllTitle {
   width: 960px;
   margin: 0 auto;
@@ -258,10 +262,6 @@
 .container-Contact .container-Contact--form button:hover {
   background: #333;
   color: #fff;
-}
-
-.footer {
-  display: none;
 }
 
 @media screen and (max-width: 1280px) {
