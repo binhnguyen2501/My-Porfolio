@@ -8,7 +8,7 @@ $black: #333;
 	display: flex;
 	justify-content: space-between;
 	position: relative;
-	.logo {
+	.header__logo {
 		align-self: center;
 		a {
 			display: inline-block;
@@ -23,11 +23,11 @@ $black: #333;
 	nav {
 		align-items: center;
 		align-self: center;
-		.nav-links {
+		.header__navLinks {
 			display: flex;
 			justify-content: space-between;
 			list-style: none;
-			.nav-links--link {
+			.header__navLinks---link {
 				color: $black;
 				display: inline-block;
 				padding-left: 30px;
@@ -46,7 +46,7 @@ $black: #333;
 			}
 		}
 	}
-	.menu-toggler {
+	.header__menuToggler {
 		position: absolute;
 		height: 2rem;
 		width: 3rem;
@@ -84,7 +84,7 @@ $black: #333;
 			transform: rotate(-450deg) translateX(-0.8rem);
 		}
 	}
-	.menu-toggler.open {
+	.header__menuToggler.open {
 		/*vì nó là class cha nên đặt tên cho class tác động trên JS phải nằm sau*/
 		transform: rotate(-45deg); /*xoay theo chiều Z (tức xoay phẳng 2D)*/
 	}

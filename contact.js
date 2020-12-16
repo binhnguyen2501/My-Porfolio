@@ -1,7 +1,7 @@
 /*RESPON NAVBAR-SCROLL*/
-const navbar = document.querySelector('.nav-links');
+const navbar = document.querySelector('.header__navLinks');
 const navbarHeight = navbar.clientHeight;
-const navbarMobile = document.querySelector('.menu-toggler');
+const navbarMobile = document.querySelector('.header__menuToggler');
 window.addEventListener('scroll', function(){
     if(window.scrollY >= navbarHeight){
         navbar.classList.remove('navbarFadeIn');

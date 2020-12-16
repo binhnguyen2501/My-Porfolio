@@ -3,7 +3,7 @@
 		nav {
 			display: none;
 		}
-		.menu-toggler {
+		.header__menuToggler {
 			display: flex;
 		}
 	}
@@ -269,7 +269,7 @@
 		}
 	}
 	/*CONTACT PAGE*/
-	.menu-toggler {
+	.header__menuToggler {
 		position: absolute !important;
 		right: 1rem !important;
 	}

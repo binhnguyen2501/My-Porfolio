@@ -581,7 +581,7 @@
   .header nav {
     display: none;
   }
-  .header .menu-toggler {
+  .header .header__menuToggler {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -933,7 +933,7 @@
     color: #fff;
   }
   /*CONTACT PAGE*/
-  .menu-toggler {
+  .header__menuToggler {
     position: absolute !important;
     right: 1rem !important;
   }

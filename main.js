@@ -1,5 +1,5 @@
 /*TOGGLER NAVBAR*/
-const navBar = document.querySelector('.menu-toggler');
+const navBar = document.querySelector('.header__menuToggler');
 const navbarMobilePage = document.querySelector('.navbarMobile');
 navBar.addEventListener('click', function(){
     navBar.classList.toggle('open');
