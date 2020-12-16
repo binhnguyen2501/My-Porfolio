@@ -71,13 +71,13 @@
         <div class="container-Contact--form">
             <form>
                 <div>
-                    <input id="contact-name" type="text" name="name" placeholder="Name">
+                    <input id="contact-name" type="text" name="name" required placeholder="Name">
                 </div>
                 <div>
-                    <input id="contact-mail" type="text" name="email" placeholder="E-mail">
+                    <input id="contact-mail" type="text" name="email" required placeholder="E-mail">
                 </div>
                 <div>
-                    <select id="contact-budget" name="budget">
+                    <select id="contact-budget" name="budget" required>
                         <option selected="false" disabled="disabled">Budget</option>
                         <option value="1000-2500">$100 - $500</option>
                         <option value="2500-5000">$500 - $1000</option>
@@ -87,7 +87,8 @@
                     <i class="fa fa-caret-down select"></i>
                 </div>
                 <div>
-                    <textarea id="contact-detail" rows="7" name="details" placeholder="Project Description"></textarea>
+                    <textarea id="contact-detail" rows="7" name="details" required
+                        placeholder="Project Description"></textarea>
                 </div>
                 <div class="lastForm">
                     <button class="contact-submit" href="#" type="submit" name="submit">Send to me</button>
