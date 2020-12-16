@@ -207,6 +207,7 @@
 }
 
 .container-Contact .container-Contact--form input[type="text"],
+.container-Contact .container-Contact--form input[type="email"],
 .container-Contact .container-Contact--form select,
 .container-Contact .container-Contact--form textarea {
   width: 100%;
