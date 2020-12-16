@@ -5,7 +5,7 @@ const navbarMobile = document.querySelector('.header__menuToggler');
 window.addEventListener('scroll', function(){
     if(window.scrollY >= navbarHeight){
         navbar.classList.remove('navbarFadeIn');
-        navbarMobile.style.cssText = 'display: flex; right: 5rem; position: fixed;';
+        navbarMobile.style.cssText = 'display: flex; right: 3rem; position: fixed;';
     }
     else{
         navbar.classList.add('navbarFadeIn');
