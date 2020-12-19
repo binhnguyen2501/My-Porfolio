@@ -470,14 +470,14 @@
   background: #e9b911;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 80em) {
   .cursor,
   .cursor2 {
     display: none;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64em) {
   /*CONTACT PAGE*/
   .AllTitle,
   .container-Contact {
@@ -506,7 +506,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 56.25em) {
   .header,
   .footer {
     padding: 0 3% 0 3%;
@@ -577,7 +577,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 43.75em) {
   .header nav {
     display: none;
   }
@@ -1011,7 +1011,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 25em) {
   .containerMobile .homepage-titleMobile .homepage-title--mainTitle .line2 {
     width: 32%;
   }

@@ -1,10 +1,12 @@
-@media screen and (max-width: 1280px) {
+// 1280px
+@media screen and (max-width: 80em) {
 	.cursor,
 	.cursor2 {
 		display: none;
 	}
 }
-@media screen and (max-width: 1024px) {
+// 1024px
+@media screen and (max-width: 64em) {
 	/*CONTACT PAGE*/
 	.AllTitle,
 	.container-Contact {
@@ -32,8 +34,8 @@
 		}
 	}
 }
-
-@media screen and (max-width: 900px) {
+// 900px
+@media screen and (max-width: 56.25em) {
 	.header,
 	.footer {
 		padding: 0 3% 0 3%;
