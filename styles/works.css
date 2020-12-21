@@ -214,6 +214,14 @@
   .container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 {
     margin-top: 6.1rem;
   }
+  /*WORKS*/
+  .container-Works {
+    gap: 2rem;
+  }
+  .container-Works .left--Works,
+  .container-Works .right--Works {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 56.25em) {
@@ -284,6 +292,14 @@
     display: block !important;
     width: 100%;
     padding: 0 17%;
+  }
+  /*WORKS*/
+  .container-Works {
+    gap: 2rem;
+  }
+  .container-Works .left--Works,
+  .container-Works .right--Works {
+    width: 45%;
   }
 }
 
@@ -719,6 +735,36 @@
     width: 100%;
     padding: 0 5%;
   }
+  /*WORKS*/
+  .AllTitle .homepage-title--mainTitle .line2-work {
+    width: 40%;
+  }
+  .AllTitle .homepage-title--contentTitle p {
+    font-size: 2rem;
+  }
+  .container-Works {
+    background-color: lightblue;
+    gap: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-Works .left--Works,
+  .container-Works .right--Works {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .container-Works .left--Works .line2,
+  .container-Works .right--Works .line2 {
+    left: 12%;
+    width: 75%;
+  }
+  .container-Works .left--Works .line2-project2,
+  .container-Works .right--Works .line2-project2 {
+    width: 53%;
+    left: 23%;
+  }
 }
 
 @media screen and (max-width: 25em) {
@@ -741,6 +787,22 @@
   }
   .container-About .container-About--wrapper .About---wrapperTitle .about-name {
     font-size: 0.9rem;
+  }
+  /*WORKS*/
+  .container-Works .left--Works,
+  .container-Works .right--Works {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+  .container-Works .left--Works .line2,
+  .container-Works .right--Works .line2 {
+    left: 9%;
+    width: 83%;
+  }
+  .container-Works .left--Works .line2-project2,
+  .container-Works .right--Works .line2-project2 {
+    width: 60%;
+    left: 20%;
   }
 }
 /*# sourceMappingURL=works.css.map */

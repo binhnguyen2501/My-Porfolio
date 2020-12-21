@@ -340,6 +340,33 @@
 			padding: 0 5%;
 		}
 	}
+	/*WORKS*/
+	.AllTitle {
+		.homepage-title--mainTitle .line2-work {
+			width: 40%;
+		}
+		.homepage-title--contentTitle p {
+			font-size: 2rem;
+		}
+	}
+	.container-Works {
+		background-color: lightblue;
+		gap: 1rem;
+		flex-direction: column;
+		.left--Works,
+		.right--Works {
+			width: 100%;
+			padding: 0 1rem;
+			.line2 {
+				left: 12%;
+				width: 75%;
+			}
+			.line2-project2 {
+				width: 53%;
+				left: 23%;
+			}
+		}
+	}
 }
 // 400px
 @media screen and (max-width: 25em) {
@@ -374,6 +401,22 @@
 				.about-name {
 					font-size: 0.9rem;
 				}
+			}
+		}
+	}
+	/*WORKS*/
+	.container-Works {
+		.left--Works,
+		.right--Works {
+			width: 100%;
+			padding: 0 0.5rem;
+			.line2 {
+				left: 9%;
+				width: 83%;
+			}
+			.line2-project2 {
+				width: 60%;
+				left: 20%;
 			}
 		}
 	}

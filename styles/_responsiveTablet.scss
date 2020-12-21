@@ -33,6 +33,14 @@
 			}
 		}
 	}
+	/*WORKS*/
+	.container-Works {
+		gap: 2rem;
+		.left--Works,
+		.right--Works {
+			width: 40%;
+		}
+	}
 }
 // 900px
 @media screen and (max-width: 56.25em) {
@@ -96,6 +104,14 @@
 			display: block !important;
 			width: 100%;
 			padding: 0 17%;
+		}
+	}
+	/*WORKS*/
+	.container-Works {
+		gap: 2rem;
+		.left--Works,
+		.right--Works {
+			width: 45%;
 		}
 	}
 }
