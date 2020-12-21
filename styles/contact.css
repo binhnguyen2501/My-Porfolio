@@ -299,12 +299,25 @@
     margin-top: 6.1rem;
   }
   /*WORKS*/
+  .AllTitle .homepage-title--mainTitle .line2-work {
+    width: 25%;
+  }
   .container-Works {
     gap: 2rem;
   }
   .container-Works .left--Works,
   .container-Works .right--Works {
     width: 40%;
+  }
+  .container-Works .left--Works .line2,
+  .container-Works .right--Works .line2 {
+    left: 15%;
+    width: 70%;
+  }
+  .container-Works .left--Works .line2-project2,
+  .container-Works .right--Works .line2-project2 {
+    width: 50%;
+    left: 25%;
   }
 }
 
@@ -378,12 +391,25 @@
     padding: 0 17%;
   }
   /*WORKS*/
+  .AllTitle .homepage-title--mainTitle .line2-work {
+    width: 30%;
+  }
   .container-Works {
     gap: 2rem;
   }
   .container-Works .left--Works,
   .container-Works .right--Works {
     width: 45%;
+  }
+  .container-Works .left--Works .line2,
+  .container-Works .right--Works .line2 {
+    left: 10%;
+    width: 80%;
+  }
+  .container-Works .left--Works .line2-project2,
+  .container-Works .right--Works .line2-project2 {
+    width: 60%;
+    left: 20%;
   }
 }
 

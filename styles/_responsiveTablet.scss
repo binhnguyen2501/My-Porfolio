@@ -34,11 +34,24 @@
 		}
 	}
 	/*WORKS*/
+	.AllTitle {
+		.homepage-title--mainTitle .line2-work {
+			width: 25%;
+		}
+	}
 	.container-Works {
 		gap: 2rem;
 		.left--Works,
 		.right--Works {
 			width: 40%;
+			.line2 {
+				left: 15%;
+				width: 70%;
+			}
+			.line2-project2 {
+				width: 50%;
+				left: 25%;
+			}
 		}
 	}
 }
@@ -107,11 +120,24 @@
 		}
 	}
 	/*WORKS*/
+	.AllTitle {
+		.homepage-title--mainTitle .line2-work {
+			width: 30%;
+		}
+	}
 	.container-Works {
 		gap: 2rem;
 		.left--Works,
 		.right--Works {
 			width: 45%;
+			.line2 {
+				left: 10%;
+				width: 80%;
+			}
+			.line2-project2 {
+				width: 60%;
+				left: 20%;
+			}
 		}
 	}
 }
