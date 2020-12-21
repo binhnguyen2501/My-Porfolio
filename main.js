@@ -1,10 +1,3 @@
-/*TOGGLER NAVBAR*/
-const navBar = document.querySelector('.header__menuToggler');
-const navbarMobilePage = document.querySelector('.navbarMobile');
-navBar.addEventListener('click', function(){
-    navBar.classList.toggle('open');
-    navbarMobilePage.classList.toggle('openPage');
-})
 /*CURSOR*/
 const cursor = document.querySelector('.cursor');
 const cursor2 = document.querySelector('.cursor2');
@@ -65,4 +58,11 @@ contentTitle.forEach(content =>{
         cursor2.classList.remove('link-grow_cursor2')
         content.style.cssText = 'cursor: pointer'
     })
+})
+/*TOGGLER NAVBAR*/
+const navBar = document.querySelector('.header__menuToggler');
+const navbarMobilePage = document.querySelector('.navbarMobile');
+navBar.addEventListener('click', function(){
+    navBar.classList.toggle('open');
+    navbarMobilePage.classList.toggle('openPage');
 })
