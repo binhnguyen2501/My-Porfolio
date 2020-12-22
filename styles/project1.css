@@ -212,7 +212,6 @@
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  -webkit-background-clip: text;
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
