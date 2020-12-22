@@ -913,6 +913,9 @@
   .content .content__img .background--img {
     height: 85% !important;
   }
+  .content .nextproject .nextproject-caption h2 a {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 25em) {
@@ -960,6 +963,12 @@
   }
   /*PROJECT1*/
   .top .container-project .caption__text {
+    font-size: 2rem;
+  }
+  .content .nextproject .nextproject-caption p {
+    font-size: 1rem;
+  }
+  .content .nextproject .nextproject-caption h2 a {
     font-size: 2rem;
   }
 }

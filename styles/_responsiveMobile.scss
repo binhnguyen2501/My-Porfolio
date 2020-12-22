@@ -404,6 +404,11 @@
 				height: 85% !important;
 			}
 		}
+		.nextproject {
+			.nextproject-caption h2 a {
+				font-size: 2.5rem;
+			}
+		}
 	}
 }
 // 400px
@@ -470,6 +475,16 @@
 	.top {
 		.container-project {
 			.caption__text {
+				font-size: 2rem;
+			}
+		}
+	}
+	.content {
+		.nextproject {
+			.nextproject-caption p {
+				font-size: 1rem;
+			}
+			.nextproject-caption h2 a {
 				font-size: 2rem;
 			}
 		}
