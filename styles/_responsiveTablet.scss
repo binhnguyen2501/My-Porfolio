@@ -54,6 +54,31 @@
 			}
 		}
 	}
+	/*PROJECT1*/
+	.top {
+		height: 600px;
+	}
+	.content {
+		position: absolute;
+		top: 25rem;
+		.content__video {
+			width: 95% !important;
+		}
+		.content__text {
+			width: 95% !important;
+		}
+		.content__img {
+			.content__img-row {
+				img {
+					width: 40% !important;
+				}
+			}
+			.background--img {
+				width: 95% !important;
+				top: 8rem !important;
+			}
+		}
+	}
 }
 // 900px
 @media screen and (max-width: 56.25em) {

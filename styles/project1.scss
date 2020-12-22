@@ -5,7 +5,6 @@ $projec1: rgb(194, 153, 88);
 .header {
 	background-color: $projec1;
 	padding: 0 2rem;
-	height: 10vh;
 	.backtoWorkBtn {
 		align-self: center;
 		a {
@@ -15,18 +14,21 @@ $projec1: rgb(194, 153, 88);
 			font-weight: 600;
 			i {
 				margin-left: 0.2rem;
-				animation: goUp 0.9s infinite;
+				animation: goRight 0.9s infinite;
 			}
 		}
 	}
 }
-
 .top {
 	background-color: $projec1;
-	height: 90vh;
-	.container {
+	height: 660px;
+	.container-project {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding-top: 5rem;
+		height: 100%;
 		text-align: center;
-		padding: 5rem 0;
 		color: $white;
 		.caption__text {
 			text-transform: uppercase;
@@ -39,7 +41,6 @@ $projec1: rgb(194, 153, 88);
 		}
 	}
 }
-
 .content {
 	position: absolute;
 	top: 20rem;
@@ -50,6 +51,9 @@ $projec1: rgb(194, 153, 88);
 		.content__video {
 			width: 70%;
 			margin: 0 auto;
+			video:focus {
+				outline: none;
+			}
 		}
 		.content__text {
 			width: 70%;
@@ -87,28 +91,37 @@ $projec1: rgb(194, 153, 88);
 			}
 		}
 		.content__img {
-			border: 3px solid black;
+			width: 100%;
+			margin-bottom: 5rem;
+			position: relative;
 			.content__img-row {
 				width: 100%;
 				display: flex;
 				align-items: center;
-				justify-content: space-evenly;
-				position: relative;
+				justify-content: center;
+				gap: 3rem;
 				img {
-					width: 40%;
-
-					position: relative;
-					z-index: 10;
-				}
-				.respon--img {
 					width: 30%;
+					z-index: 10;
+					display: block;
+					box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+						15px 15px 15px rgba(0, 0, 0, 0.1);
 				}
+			}
+			.background--img {
+				width: 80%;
+				height: 60%;
+				position: absolute;
+				z-index: 0;
+				background-color: $projec1;
+				top: 11rem;
+				left: 50%;
+				transform: translateX(-50%);
 			}
 		}
 	}
 }
-
-@keyframes goUp {
+@keyframes goRight {
 	0% {
 		transform: translateX(5px);
 		opacity: 0.5;
@@ -121,3 +134,6 @@ $projec1: rgb(194, 153, 88);
 		transform: translateX(0);
 	}
 }
+
+@import "./responsiveTablet";
+@import "./responsiveMobile";
