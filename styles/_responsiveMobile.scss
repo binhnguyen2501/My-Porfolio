@@ -406,7 +406,19 @@
 		}
 		.nextproject {
 			.nextproject-caption h2 a {
-				font-size: 2.5rem !important;
+				font-size: 2rem;
+				.slider-img2 {
+					width: 370px;
+					height: 350px;
+					top: -380%;
+					left: 0%;
+				}
+				.slider-img {
+					width: 370px;
+					height: 350px;
+					top: -400%;
+					left: -8.5%;
+				}
 			}
 		}
 	}
@@ -482,10 +494,22 @@
 	.content {
 		.nextproject {
 			.nextproject-caption p {
-				font-size: 1rem !important;
+				font-size: 1rem;
 			}
 			.nextproject-caption h2 a {
-				font-size: 2rem !important;
+				font-size: 1.7rem;
+				.slider-img2 {
+					width: 320px;
+					height: 350px;
+					top: -500%;
+					left: 0;
+				}
+				.slider-img {
+					width: 320px;
+					height: 350px;
+					top: -500%;
+					left: -8.5%;
+				}
 			}
 		}
 	}
