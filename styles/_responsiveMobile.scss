@@ -406,7 +406,7 @@
 		}
 		.nextproject {
 			.nextproject-caption h2 a {
-				font-size: 2.5rem;
+				font-size: 2.5rem !important;
 			}
 		}
 	}
@@ -482,10 +482,10 @@
 	.content {
 		.nextproject {
 			.nextproject-caption p {
-				font-size: 1rem;
+				font-size: 1rem !important;
 			}
 			.nextproject-caption h2 a {
-				font-size: 2rem;
+				font-size: 2rem !important;
 			}
 		}
 	}
