@@ -950,7 +950,7 @@
     height: 85% !important;
   }
   .content .nextproject .nextproject-caption h2 a {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
 }
 
@@ -1002,10 +1002,10 @@
     font-size: 2rem;
   }
   .content .nextproject .nextproject-caption p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .content .nextproject .nextproject-caption h2 a {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 }
 /*# sourceMappingURL=project1.css.map */

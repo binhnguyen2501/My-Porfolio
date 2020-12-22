@@ -1,9 +1,8 @@
 $mainColor: #e9b911;
 $white: #fff;
 $black: #333;
-$project1: rgb(194, 153, 88);
 .header {
-	background-color: $project1;
+	background-color: rgb(194, 153, 88);
 	padding: 0 2rem;
 	.backtoWorkBtn {
 		align-self: center;
@@ -20,7 +19,7 @@ $project1: rgb(194, 153, 88);
 	}
 }
 .top {
-	background-color: $project1;
+	background-color: rgb(194, 153, 88);
 	height: 660px;
 	.container-project {
 		display: flex;
@@ -113,7 +112,7 @@ $project1: rgb(194, 153, 88);
 				height: 60%;
 				position: absolute;
 				z-index: 0;
-				background-color: $project1;
+				background-color: rgb(194, 153, 88);
 				top: 11rem;
 				left: 50%;
 				transform: translateX(-50%);
@@ -122,7 +121,7 @@ $project1: rgb(194, 153, 88);
 	}
 	.nextproject {
 		height: 100vh;
-		background: $projec1;
+		background: rgb(194, 153, 88);
 		position: relative;
 		display: flex;
 		align-items: center;
