@@ -1,9 +1,9 @@
 $mainColor: #e9b911;
 $white: #fff;
 $black: #333;
-$projec1: rgb(194, 153, 88);
+$project1: rgb(194, 153, 88);
 .header {
-	background-color: $projec1;
+	background-color: $project1;
 	padding: 0 2rem;
 	.backtoWorkBtn {
 		align-self: center;
@@ -20,7 +20,7 @@ $projec1: rgb(194, 153, 88);
 	}
 }
 .top {
-	background-color: $projec1;
+	background-color: $project1;
 	height: 660px;
 	.container-project {
 		display: flex;
@@ -113,7 +113,7 @@ $projec1: rgb(194, 153, 88);
 				height: 60%;
 				position: absolute;
 				z-index: 0;
-				background-color: $projec1;
+				background-color: $project1;
 				top: 11rem;
 				left: 50%;
 				transform: translateX(-50%);
