@@ -378,7 +378,14 @@
 			justify-content: flex-start;
 			padding-top: 15rem;
 			.caption__text {
-				font-size: 2.8rem;
+				.text-project span {
+					font-size: 1rem;
+				}
+			}
+			.caption__main {
+				.text-project1 span {
+					font-size: 3rem;
+				}
 			}
 		}
 	}
@@ -414,7 +421,7 @@
 				font-size: 1rem;
 			}
 			.nextproject-caption h2 a {
-				font-size: 1.9rem;
+				font-size: 3.5rem;
 			}
 		}
 	}
@@ -487,7 +494,14 @@
 	.top {
 		.container-project {
 			.caption__text {
-				font-size: 2rem;
+				.text-project span {
+					font-size: 1rem;
+				}
+			}
+			.caption__main {
+				.text-project1 span {
+					font-size: 2.5rem;
+				}
 			}
 		}
 	}
@@ -497,7 +511,7 @@
 				font-size: 0.8rem;
 			}
 			.nextproject-caption h2 a {
-				font-size: 1.6rem;
+				font-size: 2.8rem;
 			}
 		}
 	}

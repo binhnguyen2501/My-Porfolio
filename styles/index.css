@@ -1127,8 +1127,11 @@
             justify-content: flex-start;
     padding-top: 15rem;
   }
-  .top .container-project .caption__text {
-    font-size: 2.8rem;
+  .top .container-project .caption__text .text-project span {
+    font-size: 1rem;
+  }
+  .top .container-project .caption__main .text-project1 span {
+    font-size: 3rem;
   }
   .content {
     position: absolute;
@@ -1165,7 +1168,7 @@
     font-size: 1rem;
   }
   .content .nextproject .nextproject-caption h2 a {
-    font-size: 1.9rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -1218,14 +1221,17 @@
     left: 31%;
   }
   /*PROJECT1*/
-  .top .container-project .caption__text {
-    font-size: 2rem;
+  .top .container-project .caption__text .text-project span {
+    font-size: 1rem;
+  }
+  .top .container-project .caption__main .text-project1 span {
+    font-size: 2.5rem;
   }
   .content .nextproject .nextproject-caption p {
     font-size: 0.8rem;
   }
   .content .nextproject .nextproject-caption h2 a {
-    font-size: 1.6rem;
+    font-size: 2.8rem;
   }
 }
 /*# sourceMappingURL=index.css.map */

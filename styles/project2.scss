@@ -149,6 +149,7 @@ $black: #333;
 		.nextproject-caption p {
 			font-size: 1.5rem;
 			font-family: fmain;
+			text-align: center;
 			line-height: initial;
 			color: $white;
 			text-transform: uppercase;
@@ -156,6 +157,9 @@ $black: #333;
 			margin: 0;
 			margin-bottom: 0px;
 			font-weight: normal;
+			text-align: center;
+		}
+		.nextproject-caption h2 {
 			text-align: center;
 		}
 		.nextproject-caption h2 a {
