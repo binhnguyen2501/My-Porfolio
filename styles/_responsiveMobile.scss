@@ -405,8 +405,11 @@
 			}
 		}
 		.nextproject {
+			.nextproject-caption p {
+				font-size: 1rem;
+			}
 			.nextproject-caption h2 a {
-				font-size: 2rem;
+				font-size: 1.9rem;
 				.slider-img2 {
 					display: none;
 				}
@@ -488,16 +491,10 @@
 	.content {
 		.nextproject {
 			.nextproject-caption p {
-				font-size: 1rem;
+				font-size: 0.8rem;
 			}
 			.nextproject-caption h2 a {
-				font-size: 1.7rem;
-				.slider-img2 {
-					display: none;
-				}
-				.slider-img {
-					display: none;
-				}
+				font-size: 1.6rem;
 			}
 		}
 	}
