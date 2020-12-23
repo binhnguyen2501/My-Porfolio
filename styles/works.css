@@ -859,16 +859,16 @@
     font-size: 2rem;
   }
   .content .nextproject .nextproject-caption h2 a .slider-img2 {
-    width: 370px;
+    width: 350px;
     height: 350px;
     top: -380%;
-    left: 0%;
+    left: 0.55rem;
   }
   .content .nextproject .nextproject-caption h2 a .slider-img {
-    width: 370px;
+    width: 350px;
     height: 350px;
     top: -400%;
-    left: -8.5%;
+    left: -1rem;
   }
 }
 
@@ -927,15 +927,15 @@
   }
   .content .nextproject .nextproject-caption h2 a .slider-img2 {
     width: 320px;
-    height: 350px;
-    top: -500%;
-    left: 0;
+    height: 320px;
+    top: -480%;
+    left: -0.1rem;
   }
   .content .nextproject .nextproject-caption h2 a .slider-img {
     width: 320px;
-    height: 350px;
-    top: -500%;
-    left: -8.5%;
+    height: 320px;
+    top: -480%;
+    left: -1.5rem;
   }
 }
 /*# sourceMappingURL=works.css.map */
