@@ -101,7 +101,6 @@
 .container-About .container-About--wrapper .About---wrapperTitle {
   width: 45%;
   line-height: 1.7em;
-  text-align: justify;
 }
 
 .container-About .container-About--wrapper .About---wrapperTitle .about-name {
@@ -815,6 +814,7 @@
     width: 100%;
     font-size: 0.9rem;
     padding: 0 5%;
+    text-align: justify;
   }
   .container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 {
     display: none;
