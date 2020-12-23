@@ -945,12 +945,6 @@
   .content .nextproject .nextproject-caption h2 a {
     font-size: 1.9rem;
   }
-  .content .nextproject .nextproject-caption h2 a .slider-img2 {
-    display: none;
-  }
-  .content .nextproject .nextproject-caption h2 a .slider-img {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 25em) {

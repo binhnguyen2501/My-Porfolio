@@ -122,7 +122,6 @@ $black: #333;
 	.nextproject {
 		height: 100vh;
 		background: rgb(194, 153, 88);
-		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -153,24 +152,9 @@ $black: #333;
 			transition: 0.4s;
 			-webkit-transition: 0.4s;
 			-o-transition: 0.4s;
-			position: relative;
-			z-index: 10;
-			.slider-img {
-				position: absolute;
-				width: 670px;
-				height: 600px;
-				top: -350%;
-				left: -5%;
-				opacity: 0;
-				z-index: -1;
-			}
 			&:hover {
 				-webkit-text-fill-color: #cccccc;
 				text-shadow: 3px 3px 5px $black;
-			}
-			&:hover .slider-img {
-				opacity: 1;
-				transform: scale(1.1);
 			}
 		}
 	}

@@ -175,7 +175,6 @@
 .content .nextproject {
   height: 100vh;
   background: #bf0a2b;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,29 +214,11 @@
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
-  position: relative;
-  z-index: 10;
-}
-
-.content .nextproject .nextproject-caption h2 a .slider-img2 {
-  position: absolute;
-  width: 670px;
-  height: 600px;
-  top: -350%;
-  left: 3.5%;
-  opacity: 0;
-  z-index: -1;
 }
 
 .content .nextproject .nextproject-caption h2 a:hover {
   -webkit-text-fill-color: #cccccc;
   text-shadow: 3px 3px 5px #333;
-}
-
-.content .nextproject .nextproject-caption h2 a:hover .slider-img2 {
-  opacity: 1;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 @-webkit-keyframes goRight {
@@ -954,12 +935,6 @@
   }
   .content .nextproject .nextproject-caption h2 a {
     font-size: 1.9rem;
-  }
-  .content .nextproject .nextproject-caption h2 a .slider-img2 {
-    display: none;
-  }
-  .content .nextproject .nextproject-caption h2 a .slider-img {
-    display: none;
   }
 }
 
