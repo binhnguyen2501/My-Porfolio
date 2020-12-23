@@ -18,6 +18,17 @@ nextProject.addEventListener('mouseleave', function(){
     cursor2.classList.remove('link-grow_cursor2')
 })
 
+const projectImg = document.querySelectorAll('.desktop--img');
+projectImg.forEach(img =>{
+    img.addEventListener('mouseover', function(){
+        cursor.classList.add('link-grow_cursor')
+        cursor2.classList.add('link-grow_cursor2')
+    })
+    img.addEventListener('mouseleave', function(){
+        cursor.classList.remove('link-grow_cursor')
+        cursor2.classList.remove('link-grow_cursor2')
+    })
+});
 // WORD DOM TO SET ANIMATION
 const text = document.querySelector('.text-project');
 const strText = text.textContent;
