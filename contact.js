@@ -2,14 +2,17 @@
 const navbar = document.querySelector('.header__navLinks');
 const navbarHeight = navbar.clientHeight;
 const navbarMobile = document.querySelector('.header__menuToggler');
+const darkMode = document.querySelector('.darkMode');
 window.addEventListener('scroll', function(){
     if(window.scrollY >= navbarHeight){
         navbar.classList.remove('navbarFadeIn');
         navbarMobile.style.cssText = 'display: flex; right: 3rem; position: fixed;';
+        darkMode.style.cssText = 'display: none';
     }
     else{
         navbar.classList.add('navbarFadeIn');
         navbarMobile.style.cssText = 'display: none';
+        darkMode.style.cssText = 'display: fixed';
     }
 })
 /*CURSOR*/

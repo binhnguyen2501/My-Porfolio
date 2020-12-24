@@ -4,7 +4,7 @@ const cursor2 = document.querySelector('.cursor2');
 document.addEventListener('mousemove' , function(e){
     cursor.style.cssText = cursor2.style.cssText = "top: " + e.clientY + "px;" + "left: " + e.clientX + "px;"
 })
-const nav_links = document.querySelectorAll('.header__navLinks---link');
+const nav_links = document.querySelectorAll('.header__navLinks---link .link');
 nav_links.forEach(link =>{
     link.addEventListener('mouseover', function(){
         cursor.classList.add('link-grow_cursor')
@@ -15,7 +15,7 @@ nav_links.forEach(link =>{
         cursor2.classList.remove('link-grow_cursor2')
     })
 });
-const logo = document.querySelector('.header__logo');
+const logo = document.querySelector('.header__logo a');
 logo.addEventListener('mouseover', function(){
     cursor.classList.add('link-grow_cursor')
     cursor2.classList.add('link-grow_cursor2')
@@ -65,4 +65,34 @@ const navbarMobilePage = document.querySelector('.navbarMobile');
 navBar.addEventListener('click', function(){
     navBar.classList.toggle('open');
     navbarMobilePage.classList.toggle('openPage');
+})
+/*DARK MODE*/
+const checkbox = document.querySelector('input[name="theme"]');
+checkbox.addEventListener('change', function(){
+    if(this.checked){
+        tran();
+        document.documentElement.setAttribute('data-theme','dark');
+    }
+    else{
+        tran();
+        document.documentElement.setAttribute('data-theme','light');
+    }
+})
+let tran = () => {
+    document.documentElement.classList.add('transition');
+    window.setTimeout(() => {
+        document.documentElement.classList.remove('transition');
+    } , 1000)
+}
+checkbox.addEventListener('click', function(){
+    nav_links.forEach(link=>{
+        link.classList.toggle('changeColor')
+    })
+    logo.classList.toggle('changeColor');
+    social.forEach(links =>{
+        links.classList.toggle('changeColor')
+    })
+    contacts.forEach(contact =>{
+        contact.classList.toggle('changeColor')
+    })
 })

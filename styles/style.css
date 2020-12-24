@@ -9,13 +9,70 @@
   transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-html,
 body {
+  overflow-x: hidden;
+}
+
+html {
   background: #fff;
   font-weight: 400;
   font-size: 17px;
   color: #333;
   overflow-x: hidden;
+}
+
+html[data-theme="dark"] {
+  background: #333;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.darkMode {
+  position: fixed;
+  z-index: 10;
+  top: 2.3rem;
+  right: 3rem;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  display: inline-block;
+  cursor: pointer;
+  width: 52px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 20px;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+  position: relative;
+}
+
+label::after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+input:checked + label {
+  background-color: #e9b911;
+}
+
+input:checked + label::after {
+  left: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 /*Cursor*/
@@ -278,6 +335,10 @@ body {
   color: #333;
 }
 
+.header .header__logo .changeColor {
+  color: #fff;
+}
+
 .header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -294,14 +355,12 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 4rem;
   list-style: none;
 }
 
 .header nav .header__navLinks .header__navLinks---link {
   color: #333;
-  display: inline-block;
-  padding-left: 30px;
-  padding-right: 30px;
   height: 44px;
   line-height: 44px;
   font-size: 18px;
@@ -314,6 +373,14 @@ body {
 }
 
 .header nav .header__navLinks .header__navLinks---link .link:hover {
+  color: #e9b911;
+}
+
+.header nav .header__navLinks .header__navLinks---link .link.changeColor {
+  color: #fff;
+}
+
+.header nav .header__navLinks .header__navLinks---link .changeColor:hover {
   color: #e9b911;
 }
 
@@ -448,6 +515,14 @@ body {
   font-size: 0.75em;
 }
 
+.footer .contact .changeColor {
+  color: #fff;
+}
+
+.footer .contact .changeColor:hover {
+  color: #e9b911;
+}
+
 .footer .tel {
   width: 30%;
   display: -webkit-box;
@@ -478,6 +553,14 @@ body {
   display: block;
   color: #aaa;
   font-size: 0.75em;
+}
+
+.footer .tel .changeColor {
+  color: #fff;
+}
+
+.footer .tel .changeColor:hover {
+  color: #e9b911;
 }
 
 .footer .social {
@@ -513,6 +596,14 @@ body {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+}
+
+.footer .social .changeColor {
+  color: #fff;
+}
+
+.footer .social .changeColor:hover {
+  color: #e9b911;
 }
 
 .navbarMobile {

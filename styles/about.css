@@ -245,6 +245,16 @@
 }
 
 @media screen and (max-width: 64em) {
+  .darkMode {
+    top: 2.3rem;
+    right: 2rem;
+  }
+  .header nav .header__navLinks {
+    gap: 2.5rem;
+  }
+  .header nav .header__navLinks .header__navLinks---link {
+    margin-right: 1rem;
+  }
   /*CONTACT PAGE*/
   .AllTitle,
   .container-Contact {
@@ -321,9 +331,24 @@
 }
 
 @media screen and (max-width: 56.25em) {
+  .darkMode {
+    right: 1rem;
+  }
   .header,
   .footer {
     padding: 0 3% 0 3%;
+  }
+  .header nav {
+    width: 60%;
+  }
+  .header nav .header__navLinks {
+    gap: 0rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .header nav .header__navLinks .header__navLinks---link {
+    margin-right: 3rem;
   }
   /*CONTACT PAGE*/
   .AllTitle {

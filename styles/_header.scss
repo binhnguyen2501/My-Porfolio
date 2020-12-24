@@ -19,6 +19,9 @@ $black: #333;
 			font-size: 18px;
 			color: $black;
 		}
+		.changeColor {
+			color: $white;
+		}
 	}
 	nav {
 		align-items: center;
@@ -26,12 +29,10 @@ $black: #333;
 		.header__navLinks {
 			display: flex;
 			justify-content: space-between;
+			gap: 4rem;
 			list-style: none;
 			.header__navLinks---link {
 				color: $black;
-				display: inline-block;
-				padding-left: 30px;
-				padding-right: 30px;
 				height: 44px;
 				line-height: 44px;
 				font-size: 18px;
@@ -42,6 +43,12 @@ $black: #333;
 					&:hover {
 						color: $mainColor;
 					}
+				}
+				.link.changeColor {
+					color: $white;
+				}
+				.changeColor:hover {
+					color: $mainColor;
 				}
 			}
 		}

@@ -27,6 +27,12 @@ $black: #333;
 			color: #aaa;
 			font-size: 0.75em;
 		}
+		.changeColor {
+			color: $white;
+		}
+		.changeColor:hover {
+			color: $mainColor;
+		}
 	}
 	.tel {
 		width: 30%;
@@ -48,6 +54,12 @@ $black: #333;
 			display: block;
 			color: #aaa;
 			font-size: 0.75em;
+		}
+		.changeColor {
+			color: $white;
+		}
+		.changeColor:hover {
+			color: $mainColor;
 		}
 	}
 	.social {
@@ -74,6 +86,12 @@ $black: #333;
 				text-rendering: auto;
 				line-height: 1;
 			}
+		}
+		.changeColor {
+			color: $white;
+		}
+		.changeColor:hover {
+			color: $mainColor;
 		}
 	}
 }
