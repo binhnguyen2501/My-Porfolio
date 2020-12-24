@@ -77,9 +77,12 @@ $black: #333;
 			.about-name {
 				font-size: 1.3rem;
 				margin-bottom: 1rem;
-				strong {
+				span {
 					color: $black;
 					font-weight: 700;
+				}
+				.changeColor {
+					color: $white;
 				}
 			}
 			.container-About--content1 {
@@ -89,6 +92,9 @@ $black: #333;
 					color: $black;
 					font-size: 1.5rem;
 					font-weight: 700;
+				}
+				.changeColor {
+					color: $white;
 				}
 				p {
 					margin-top: 1rem;
@@ -115,6 +121,9 @@ $black: #333;
 			h3 {
 				color: $black;
 				font-size: 1.5rem;
+			}
+			.changeColor {
+				color: $white;
 			}
 			.timelineStudy {
 				border-left: 4px solid $mainColor;
@@ -178,6 +187,9 @@ $black: #333;
 			color: $black;
 			font-size: 1.5rem;
 			font-weight: 700;
+		}
+		.changeColor {
+			color: $white;
 		}
 		p {
 			margin-top: 1rem;

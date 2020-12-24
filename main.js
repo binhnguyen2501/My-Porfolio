@@ -67,6 +67,13 @@ navBar.addEventListener('click', function(){
     navbarMobilePage.classList.toggle('openPage');
 })
 /*DARK MODE*/
+const nameText = document.querySelector('.about-name span');
+const textTitle = document.querySelectorAll('.About---wrapperSkill h3');
+const workTitle1 = document.querySelector('.container-About--content1 span');
+const workTitle2 = document.querySelector('.container-About--content2 span');
+
+
+
 const checkbox = document.querySelector('input[name="theme"]');
 checkbox.addEventListener('change', function(){
     if(this.checked){
@@ -85,14 +92,21 @@ let tran = () => {
     } , 1000)
 }
 checkbox.addEventListener('click', function(){
+    // Change text color
     nav_links.forEach(link=>{
         link.classList.toggle('changeColor')
     })
     logo.classList.toggle('changeColor');
+    nameText.classList.toggle('changeColor');
+    workTitle1.classList.toggle('changeColor');
+    workTitle2.classList.toggle('changeColor');
     social.forEach(links =>{
         links.classList.toggle('changeColor')
     })
     contacts.forEach(contact =>{
         contact.classList.toggle('changeColor')
+    })
+    textTitle.forEach(text =>{
+        text.classList.toggle('changeColor')
     })
 })

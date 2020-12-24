@@ -83,3 +83,9 @@ function changeTextSlide(){
     }
     TextSlide[index].classList.add('active');
 }
+
+
+
+
+
+
