@@ -1,5 +1,10 @@
 // 700px
 @media screen and (max-width: 43.75em) {
+	.darkMode {
+		position: absolute;
+		top: 0.5rem;
+		left: -0.5rem;
+	}
 	.header {
 		nav {
 			display: none;
