@@ -117,6 +117,7 @@ body.darkmode {
 	padding: 10px 10px;
 	background: $white;
 	border: none;
+	outline: none;
 	cursor: pointer;
 	i {
 		font-size: 1.3rem;
@@ -126,6 +127,7 @@ body.darkmode {
 	position: absolute;
 	background-color: transparent;
 	border: none;
+	outline: none;
 	top: 2rem;
 	left: 1.5rem;
 	z-index: 99999;
