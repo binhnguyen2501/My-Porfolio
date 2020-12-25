@@ -94,6 +94,7 @@ const disableDarkMode = () => {
 if (darkMode === 'enabled') {
     enableDarkMode();
     iconMode.classList.add('fa-sun');
+    iconMode2.classList.add('fa-sun');
 }
 
 // When someone clicks the button
