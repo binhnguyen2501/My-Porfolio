@@ -744,7 +744,7 @@
   }
   /*CONTACT PAGE*/
   .header__menuToggler {
-    position: fixed !important;
+    position: absolute !important;
     right: 1rem !important;
   }
   .AllTitle {
