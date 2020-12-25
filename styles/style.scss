@@ -84,6 +84,9 @@ body.darkmode {
 	.container-Works .right--Works .Works---wrapper a .mainTitle p {
 		color: $white;
 	}
+	.container-Works .Works---wrapper a:hover .mainTitle p {
+		color: $mainColor;
+	}
 	.container
 		.container_homepage
 		.homepage-banner--slider
@@ -121,10 +124,10 @@ body.darkmode {
 }
 .darkMode .changeMode2 {
 	position: absolute;
-	background: $mainColor;
+	background-color: transparent;
 	border: none;
-	top: 1rem;
-	left: 2rem;
+	top: 2rem;
+	left: 1.5rem;
 	z-index: 99999;
 	i {
 		font-size: 2rem;
