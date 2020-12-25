@@ -7,10 +7,6 @@
 }
 // 1024px
 @media screen and (max-width: 64em) {
-	.darkMode {
-		top: 2.3rem;
-		right: 2rem;
-	}
 	.header {
 		nav {
 			.header__navLinks {
@@ -100,9 +96,6 @@
 }
 // 900px
 @media screen and (max-width: 56.25em) {
-	.darkMode {
-		right: 1rem;
-	}
 	.header,
 	.footer {
 		padding: 0 3% 0 3%;

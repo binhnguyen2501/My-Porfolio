@@ -67,46 +67,59 @@ navBar.addEventListener('click', function(){
     navbarMobilePage.classList.toggle('openPage');
 })
 /*DARK MODE*/
-const nameText = document.querySelector('.about-name span');
-const textTitle = document.querySelectorAll('.About---wrapperSkill h3');
-const workTitle1 = document.querySelector('.container-About--content1 span');
-const workTitle2 = document.querySelector('.container-About--content2 span');
+const checkbox2 = document.querySelector('.navbarMobile .darkMode .changeMode2');
+const checkbox = document.querySelector('.changeMode');
+const iconMode = document.querySelector('.far');
+const iconMode2 = document.querySelector('.navbarMobile .darkMode .changeMode2 .far');
 
+// check for saved 'darkMode' in localStorage
+let darkMode = localStorage.getItem('darkMode'); 
 
-
-const checkbox = document.querySelector('input[name="theme"]');
-checkbox.addEventListener('change', function(){
-    if(this.checked){
-        tran();
-        document.documentElement.setAttribute('data-theme','dark');
-    }
-    else{
-        tran();
-        document.documentElement.setAttribute('data-theme','light');
-    }
-})
-let tran = () => {
-    document.documentElement.classList.add('transition');
-    window.setTimeout(() => {
-        document.documentElement.classList.remove('transition');
-    } , 1000)
+const enableDarkMode = () => {
+    // 1. Add the class to the body
+    document.body.classList.add('darkmode');
+    // 2. Update darkMode in localStorage
+    localStorage.setItem('darkMode', 'enabled');
 }
+
+const disableDarkMode = () => {
+    // 1. Remove the class from the body
+    document.body.classList.remove('darkmode');
+    // 2. Update darkMode in localStorage 
+    localStorage.setItem('darkMode', null);
+}
+ 
+// If the user already visited and enabled darkMode
+// start things off with it on
+if (darkMode === 'enabled') {
+    enableDarkMode();
+}
+
+// When someone clicks the button
 checkbox.addEventListener('click', function(){
-    // Change text color
-    nav_links.forEach(link=>{
-        link.classList.toggle('changeColor')
-    })
-    logo.classList.toggle('changeColor');
-    nameText.classList.toggle('changeColor');
-    workTitle1.classList.toggle('changeColor');
-    workTitle2.classList.toggle('changeColor');
-    social.forEach(links =>{
-        links.classList.toggle('changeColor')
-    })
-    contacts.forEach(contact =>{
-        contact.classList.toggle('changeColor')
-    })
-    textTitle.forEach(text =>{
-        text.classList.toggle('changeColor')
-    })
+    // get their darkMode setting
+    darkMode = localStorage.getItem('darkMode'); 
+    
+    // if it not current enabled, enable it
+    if (darkMode !== 'enabled') {
+        enableDarkMode();
+    // if it has been enabled, turn it off  
+    } else {  
+        disableDarkMode(); 
+    }
+    iconMode.classList.toggle('fa-sun');
+})
+
+checkbox2.addEventListener('click', function(){
+        // get their darkMode setting
+    darkMode = localStorage.getItem('darkMode'); 
+    
+    // if it not current enabled, enable it
+    if (darkMode !== 'enabled') {
+        enableDarkMode();
+    // if it has been enabled, turn it off  
+    } else {  
+        disableDarkMode(); 
+    }
+    iconMode2.classList.toggle('fa-sun');
 })

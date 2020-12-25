@@ -1,3 +1,7 @@
+.darkMode {
+  visibility: hidden;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -194,10 +198,6 @@
 }
 
 @media screen and (max-width: 64em) {
-  .darkMode {
-    top: 2.3rem;
-    right: 2rem;
-  }
   .header nav .header__navLinks {
     gap: 2.5rem;
   }
@@ -280,9 +280,6 @@
 }
 
 @media screen and (max-width: 56.25em) {
-  .darkMode {
-    right: 1rem;
-  }
   .header,
   .footer {
     padding: 0 3% 0 3%;
@@ -392,11 +389,6 @@
 }
 
 @media screen and (max-width: 43.75em) {
-  .darkMode {
-    position: absolute;
-    top: 0.5rem;
-    left: -0.5rem;
-  }
   .header nav {
     display: none;
   }
