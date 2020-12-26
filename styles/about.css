@@ -182,7 +182,7 @@
 }
 
 .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #888888;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   position: relative;
