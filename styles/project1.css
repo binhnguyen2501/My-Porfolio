@@ -994,6 +994,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 4rem !important;
   }
   .content .content__img .content__img-row img {
     width: 80% !important;
@@ -1063,18 +1064,6 @@
   }
   .top .container-project .caption__main .text-project1 span {
     font-size: 2.5rem;
-  }
-  .content .content__img .content__img-row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .content .content__img .content__img-row img {
-    width: 75% !important;
-  }
-  .content .content__img .background--img {
-    height: 90% !important;
   }
   .content .nextproject .nextproject-caption p {
     font-size: 0.8rem;
