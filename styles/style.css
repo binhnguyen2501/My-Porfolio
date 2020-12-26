@@ -127,12 +127,6 @@ body.darkmode .container-Contact .container-Contact--form form .lastForm button:
   background: #fff;
 }
 
-body.darkmode .homepage-title .homepage-title--mainTitle {
-  color: #fff;
-  -webkit-animation-name: fade-in-text;
-          animation-name: fade-in-text;
-}
-
 body.darkmode .cursor {
   border: 3px solid #fff;
 }
