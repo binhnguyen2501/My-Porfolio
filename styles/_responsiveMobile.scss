@@ -506,6 +506,17 @@
 		}
 	}
 	.content {
+		.content__img {
+			.content__img-row {
+				flex-direction: column;
+				img {
+					width: 75% !important;
+				}
+			}
+			.background--img {
+				height: 90% !important;
+			}
+		}
 		.nextproject {
 			.nextproject-caption p {
 				font-size: 0.8rem;
