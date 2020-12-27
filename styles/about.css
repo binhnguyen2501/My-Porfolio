@@ -163,6 +163,7 @@
 .container-About .container-About--wrapper .About---wrapperSkill h3 {
   color: #333;
   font-size: 1.5rem;
+  padding-left: 2rem;
 }
 
 .container-About .container-About--wrapper .About---wrapperSkill .changeColor {
@@ -216,17 +217,71 @@
   font-size: 1rem;
 }
 
+.container-About .container-About--wrapper .About---wrapperSkill .skill {
+  overflow: auto;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .skill h3 {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
 .container-About .container-About--wrapper .About---wrapperSkill .skill p {
-  border: 1px solid #ccc;
+  text-align: center;
+  font-weight: 650;
+  width: 40%;
   padding: 10px 20px;
-  border-radius: 15px;
-  margin: 0.3rem 0 0.3rem 0.3rem;
+  margin: 0.3rem 0 1rem 2rem;
   float: left;
+  position: relative;
+  overflow: hidden;
 }
 
 .container-About .container-About--wrapper .About---wrapperSkill .skill p:hover {
-  background: #e9b911;
   color: #fff;
+  background: #e9b911;
+  -webkit-box-shadow: 0 0 50px #e9b911;
+          box-shadow: 0 0 50px #e9b911;
+  -webkit-transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .skill p:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #e9b911;
+  border-left: 2px solid #e9b911;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .skill p:hover::before {
+  width: 100%;
+  height: 100%;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .skill p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid #e9b911;
+  border-right: 2px solid #e9b911;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container-About .container-About--wrapper .About---wrapperSkill .skill p:hover::after {
+  width: 100%;
+  height: 100%;
 }
 
 .container-About .container-About--content2 {
@@ -291,7 +346,7 @@
     padding: 0 4%;
   }
   .container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 {
-    margin-top: 6.1rem;
+    margin-top: 7.2rem;
   }
   /*WORKS*/
   .AllTitle .homepage-title--mainTitle .line2-work {
@@ -424,7 +479,7 @@
   .container-About .container-About--content2 {
     display: block !important;
     width: 100%;
-    padding: 0 17%;
+    padding: 0 21%;
   }
   /*WORKS*/
   .AllTitle .homepage-title--mainTitle .line2-work {
@@ -881,6 +936,21 @@
   }
   .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy {
     font-size: 0.9rem;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill h3 {
+    padding-left: 0;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill .skill p,
+  .container-About .container-About--wrapper .About---wrapperSkill .skill h3 {
+    width: 100%;
+    margin: 0;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill .skill h3 {
+    padding-left: 0rem;
+    margin-bottom: 1.5rem;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill .skill p {
+    margin-bottom: 1rem;
   }
   .container-About .container-About--content2 {
     display: block !important;
