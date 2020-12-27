@@ -71,7 +71,6 @@ const checkbox2 = document.querySelector('.navbarMobile .darkMode .changeMode2')
 const checkbox = document.querySelector('.changeMode');
 const iconMode = document.querySelector('.far');
 const iconMode2 = document.querySelector('.navbarMobile .darkMode .changeMode2 .far');
-
 // check for saved 'darkMode' in localStorage
 let darkMode = localStorage.getItem('darkMode'); 
 
@@ -110,6 +109,7 @@ checkbox.addEventListener('click', function(){
         disableDarkMode(); 
     }
     iconMode.classList.toggle('fa-sun');
+    iconMode2.classList.toggle('fa-sun');
 })
 
 checkbox2.addEventListener('click', function(){
@@ -123,5 +123,6 @@ checkbox2.addEventListener('click', function(){
     } else {  
         disableDarkMode(); 
     }
+    iconMode.classList.toggle('fa-sun');
     iconMode2.classList.toggle('fa-sun');
 })
