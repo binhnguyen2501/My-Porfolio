@@ -244,24 +244,39 @@
 }
 
 .container-Contact .container-Contact--form button {
-  background-color: #e9b911;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 44px;
-  line-height: 44px;
-  text-align: center;
-  color: #fff;
-  border: 0;
+  padding: 10px 20px;
+  color: #333;
+  border: 2px solid #e9b911;
   outline: none;
   font-weight: 700;
   font-size: 17px;
   cursor: pointer;
   border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .container-Contact .container-Contact--form button:hover {
-  background: #333;
   color: #fff;
+}
+
+.container-Contact .container-Contact--form button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0%;
+  background: #e9b911;
+  border-radius: 0 0 50% 50%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  z-index: -1;
+}
+
+.container-Contact .container-Contact--form button:hover::after {
+  height: 200%;
 }
 
 @media screen and (max-width: 80em) {

@@ -116,17 +116,6 @@ body.darkmode .container-Works .Works---wrapper a:hover .mainTitle p {
   color: #e9b911;
 }
 
-body.darkmode .container
-.container_homepage
-.homepage-banner--slider
-.homepage-title
-.allWork
-button:hover,
-body.darkmode .container-Contact .container-Contact--form form .lastForm button:hover {
-  color: #333;
-  background: #fff;
-}
-
 body.darkmode .cursor {
   border: 3px solid #fff;
 }
