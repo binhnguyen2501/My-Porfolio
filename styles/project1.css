@@ -893,7 +893,7 @@
   .container-About .container-About--wrapper .About---wrapperTitle {
     width: 100%;
     font-size: 0.9rem;
-    padding: 0 5%;
+    padding: 0 8%;
     text-align: justify;
   }
   .container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 {
@@ -903,7 +903,7 @@
     font-size: 1.05rem;
   }
   .container-About .container-About--wrapper .About---wrapperSkill {
-    padding: 0 5%;
+    padding: 0 8%;
     width: 100%;
   }
   .container-About .container-About--wrapper .About---wrapperSkill .me-img {
@@ -913,7 +913,16 @@
     width: 100%;
   }
   .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy {
-    font-size: 0.9rem;
+    padding: 1.5rem 0.8rem 0.5rem 0.8rem;
+    width: 100%;
+    font-size: 0.78rem;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date::before {
+    font-size: 0.8rem;
+    right: -2rem;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date::after {
+    left: -1.3rem;
   }
   .container-About .container-About--wrapper .About---wrapperSkill h3 {
     padding-left: 0;
@@ -933,7 +942,7 @@
   .container-About .container-About--content2 {
     display: block !important;
     width: 100%;
-    padding: 0 5%;
+    padding: 0 8%;
   }
   /*WORKS*/
   .AllTitle .homepage-title--mainTitle .line2-work {
@@ -1045,6 +1054,17 @@
   }
   .container-About .container-About--wrapper .About---wrapperTitle .about-name {
     font-size: 0.9rem;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy {
+    padding: 1.5rem 0.6rem 0.5rem 0.6rem;
+    font-size: 0.85rem;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date::before {
+    right: -1.6rem;
+    font-size: 0.7rem;
+  }
+  .container-About .container-About--wrapper .About---wrapperSkill .timelineStudy .date::after {
+    left: -1.3rem;
   }
   /*WORKS*/
   .AllTitle .homepage-title--mainTitle .line2-work {

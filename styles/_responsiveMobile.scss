@@ -312,7 +312,7 @@
 			.About---wrapperTitle {
 				width: 100%;
 				font-size: 0.9rem;
-				padding: 0 5%;
+				padding: 0 8%;
 				text-align: justify;
 				.container-About--content1 {
 					display: none;
@@ -322,7 +322,7 @@
 				}
 			}
 			.About---wrapperSkill {
-				padding: 0 5%;
+				padding: 0 8%;
 				width: 100%;
 				.me-img {
 					width: 100%;
@@ -331,7 +331,16 @@
 					}
 				}
 				.timelineStudy {
-					font-size: 0.9rem;
+					padding: 1.5rem 0.8rem 0.5rem 0.8rem;
+					width: 100%;
+					font-size: 0.78rem;
+					.date::before {
+						font-size: 0.8rem;
+						right: -2rem;
+					}
+					.date::after {
+						left: -1.3rem;
+					}
 				}
 				h3 {
 					padding-left: 0;
@@ -353,7 +362,7 @@
 		.container-About--content2 {
 			display: block !important;
 			width: 100%;
-			padding: 0 5%;
+			padding: 0 8%;
 		}
 	}
 	/*WORKS*/
@@ -474,6 +483,19 @@
 			.About---wrapperTitle {
 				.about-name {
 					font-size: 0.9rem;
+				}
+			}
+			.About---wrapperSkill {
+				.timelineStudy {
+					padding: 1.5rem 0.6rem 0.5rem 0.6rem;
+					font-size: 0.85rem;
+					.date::before {
+						right: -1.6rem;
+						font-size: 0.7rem;
+					}
+					.date::after {
+						left: -1.3rem;
+					}
 				}
 			}
 		}

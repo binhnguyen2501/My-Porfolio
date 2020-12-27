@@ -90,20 +90,11 @@ span,
 body.darkmode .container-About
 .container-About--wrapper
 .About---wrapperTitle
-.container-About--content2
-span,
-body.darkmode .container-About
-.container-About--wrapper
-.About---wrapperTitle
 .container-About--content1
 p
 strong,
-body.darkmode .container-About
-.container-About--wrapper
-.About---wrapperTitle
-.container-About--content2
-p
-strong {
+body.darkmode .container-About .container-About--content2 p strong,
+body.darkmode .container-About .container-About--content2 span {
   color: #fff;
 }
 
