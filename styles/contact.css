@@ -246,7 +246,7 @@
 .container-Contact .container-Contact--form button {
   padding: 10px 20px;
   color: #333;
-  border: 2px solid #e9b911;
+  border: 0.5px solid #e9b911;
   outline: none;
   font-weight: 700;
   font-size: 17px;
