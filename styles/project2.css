@@ -615,18 +615,36 @@
   }
   .containerMobile .homepage-titleMobile .allWork button {
     margin-top: 30px;
-    background: #e9b911;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 44px;
-    line-height: 44px;
-    text-align: center;
+    padding: 10px 20px;
     color: #fff;
-    border: 0;
+    border: 0.5px solid #e9b911;
+    outline: none;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .containerMobile .homepage-titleMobile .allWork button:hover {
+    color: #333;
+  }
+  .containerMobile .homepage-titleMobile .allWork button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200%;
+    background: #e9b911;
+    border-radius: 0 0 50% 50%;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    z-index: -1;
+  }
+  .containerMobile .homepage-titleMobile .allWork button:hover::before {
+    height: 0%;
   }
   .containerMobile .aboutMobile-title {
     width: 100%;
