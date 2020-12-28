@@ -42,6 +42,16 @@ body.darkmode .header nav .header__navLinks .header__navLinks---link .link:hover
   color: #e9b911;
 }
 
+body.darkmode .container .container_homepage .homepage-banner--slider .homepage-title a,
+body.darkmode .containerMobile .homepage-titleMobile a {
+  color: #333;
+}
+
+body.darkmode .container .container_homepage .homepage-banner--slider .homepage-title a:hover,
+body.darkmode .containerMobile .homepage-titleMobile a:hover {
+  color: #fff;
+}
+
 body.darkmode .container-Contact
 .container-Contact--wrapper
 .contact-wrapper--social

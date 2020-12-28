@@ -33,6 +33,13 @@ body.darkmode {
 	.header nav .header__navLinks .header__navLinks---link .link:hover {
 		color: $mainColor;
 	}
+	.container .container_homepage .homepage-banner--slider .homepage-title a,
+	.containerMobile .homepage-titleMobile a {
+		color: $black;
+		&:hover {
+			color: $white;
+		}
+	}
 	.container-Contact
 		.container-Contact--wrapper
 		.contact-wrapper--social
