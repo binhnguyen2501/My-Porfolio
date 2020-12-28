@@ -612,12 +612,13 @@
             transform: scale(1.1);
   }
   .containerMobile .homepage-titleMobile .allWork {
-    text-decoration: none;
-  }
-  .containerMobile .homepage-titleMobile .allWork button {
+    display: block;
+    width: 160px;
     margin-top: 30px;
-    padding: 10px 20px;
+    padding: 10px 0;
     color: #fff;
+    text-align: center;
+    text-decoration: none;
     border: 0.5px solid #e9b911;
     outline: none;
     font-weight: 700;
@@ -628,10 +629,10 @@
     overflow: hidden;
     z-index: 1;
   }
-  .containerMobile .homepage-titleMobile .allWork button:hover {
+  .containerMobile .homepage-titleMobile .allWork:hover {
     color: #333;
   }
-  .containerMobile .homepage-titleMobile .allWork button::before {
+  .containerMobile .homepage-titleMobile .allWork::before {
     content: "";
     position: absolute;
     left: 0;
@@ -644,7 +645,7 @@
     transition: 0.8s;
     z-index: -1;
   }
-  .containerMobile .homepage-titleMobile .allWork button:hover::before {
+  .containerMobile .homepage-titleMobile .allWork:hover::before {
     height: 0%;
   }
   .containerMobile .aboutMobile-title {
