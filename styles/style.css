@@ -769,7 +769,7 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .navbarMobile .nav-links--mobile {
-  position: fixed;
+  position: relative;
   z-index: 99999;
   display: -webkit-box;
   display: -ms-flexbox;

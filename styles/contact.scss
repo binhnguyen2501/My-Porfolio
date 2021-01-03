@@ -167,6 +167,12 @@ $black: #333;
 			background: $white;
 			line-height: 1.7em;
 		}
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		select:focus,
+		textarea:focus {
+			border-color: #777777;
+		}
 		i.select {
 			position: absolute;
 			top: 10px;

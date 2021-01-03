@@ -229,6 +229,13 @@
   line-height: 1.7em;
 }
 
+.container-Contact .container-Contact--form input[type="text"]:focus,
+.container-Contact .container-Contact--form input[type="email"]:focus,
+.container-Contact .container-Contact--form select:focus,
+.container-Contact .container-Contact--form textarea:focus {
+  border-color: #777777;
+}
+
 .container-Contact .container-Contact--form i.select {
   position: absolute;
   top: 10px;
@@ -1042,7 +1049,7 @@
     font-size: 1rem;
   }
   .content .nextproject .nextproject-caption h2 a {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -1116,7 +1123,7 @@
     font-size: 0.8rem;
   }
   .content .nextproject .nextproject-caption h2 a {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=contact.css.map */
