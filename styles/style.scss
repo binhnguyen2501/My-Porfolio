@@ -78,11 +78,11 @@ body.darkmode {
 	.container-About .container-About--content2 span {
 		color: $white;
 	}
-	.container-Works .left--Works .Works---wrapper a .mainTitle p,
-	.container-Works .right--Works .Works---wrapper a .mainTitle p {
+	.container-Works .left--Works .Works---wrapper a .mainTitle,
+	.container-Works .right--Works .Works---wrapper a .mainTitle {
 		color: $white;
 	}
-	.container-Works .Works---wrapper a:hover .mainTitle p {
+	.container-Works .Works---wrapper a:hover .mainTitle {
 		color: $mainColor;
 	}
 	.cursor {

@@ -108,12 +108,12 @@ body.darkmode .container-About .container-About--content2 span {
   color: #fff;
 }
 
-body.darkmode .container-Works .left--Works .Works---wrapper a .mainTitle p,
-body.darkmode .container-Works .right--Works .Works---wrapper a .mainTitle p {
+body.darkmode .container-Works .left--Works .Works---wrapper a .mainTitle,
+body.darkmode .container-Works .right--Works .Works---wrapper a .mainTitle {
   color: #fff;
 }
 
-body.darkmode .container-Works .Works---wrapper a:hover .mainTitle p {
+body.darkmode .container-Works .Works---wrapper a:hover .mainTitle {
   color: #e9b911;
 }
 
