@@ -47,6 +47,8 @@
   text-transform: uppercase;
   letter-spacing: 1rem;
   font-size: 1.5rem;
+  text-align: center;
+  cursor: none;
 }
 
 .top .container-project .caption__text .text-project span {
@@ -62,6 +64,11 @@
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+
+.top .container-project .caption__text .text-project span:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .top .container-project .caption__main {

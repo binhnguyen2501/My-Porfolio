@@ -29,6 +29,7 @@ projectImg.forEach(img =>{
         cursor2.classList.remove('link-grow_cursor2')
     })
 });
+
 // WORD DOM TO SET ANIMATION
 const text = document.querySelector('.text-project');
 const strText = text.textContent;
@@ -41,7 +42,15 @@ let char = 0;
 let timer = setInterval(onTick, 50);
 function onTick(){
     const span = text.querySelectorAll('span')[char];
-    span.classList.add('fade')
+    span.classList.add('fade');
+    span.addEventListener('mouseover', function(){
+        cursor.classList.add('link-grow_cursor')
+        cursor2.classList.add('link-grow_cursor2')
+    })
+    span.addEventListener('mouseleave', function(){
+        cursor.classList.remove('link-grow_cursor')
+        cursor2.classList.remove('link-grow_cursor2')
+    })
     char++;
     if(char === splitText.length){
         complete();
@@ -64,7 +73,7 @@ let Char = 0;
 let Timer = setInterval(OnTick, 50);
 function OnTick(){
     const Span = text1.querySelectorAll('span')[Char];
-    Span.classList.add('Fade')
+    Span.classList.add('Fade');
     Char++;
     if(Char === SplitText.length){
         Complete();
