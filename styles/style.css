@@ -42,6 +42,14 @@ body.darkmode .header nav .header__navLinks .header__navLinks---link .link:hover
   color: #e9b911;
 }
 
+body.darkmode .AllTitle {
+  color: #fff;
+}
+
+body.darkmode .container .container_homepage .homepage-banner--slider .homepage-title {
+  color: #fff;
+}
+
 body.darkmode .container .container_homepage .homepage-banner--slider .homepage-title a,
 body.darkmode .containerMobile .homepage-titleMobile a {
   color: #333;
