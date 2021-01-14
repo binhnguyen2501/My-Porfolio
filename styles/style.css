@@ -211,6 +211,89 @@ body.darkmode .darkMode .changeMode2 i {
   opacity: 0;
 }
 
+/*MainTitle*/
+.homepage-title--mainTitle {
+  position: relative;
+  color: #333;
+  font-size: 2.6em;
+  z-index: 99;
+  opacity: 0;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: fade-in-text;
+          animation-name: fade-in-text;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transition: all 1500ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 1500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.homepage-title--mainTitle .line1 {
+  position: absolute;
+  bottom: 5px;
+  left: -20px;
+  background: #dddddd;
+  height: 8px;
+  width: 19%;
+  z-index: -1;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-name: grey-flash;
+          animation-name: grey-flash;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.homepage-title--mainTitle .mainTitle {
+  position: relative;
+}
+
+.homepage-title--mainTitle .mainTitle .line2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e9b911;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: yellow-flash;
+          animation-name: yellow-flash;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.homepage-title--contentTitle {
+  font-size: 2.5rem;
+}
+
+.homepage-title--contentTitle p {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 1.3em;
+  line-height: 1.3em;
+}
+
+.homepage-title--contentTitle p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.AllTitle {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-weight: 700;
+}
+
 @-webkit-keyframes grey-flash {
   from {
     width: 0;
@@ -229,7 +312,7 @@ body.darkmode .darkMode .changeMode2 i {
   }
 }
 
-@-webkit-keyframes red-flash {
+@-webkit-keyframes yellow-flash {
   0% {
     -webkit-transform: scale3d(0, 1, 1);
             transform: scale3d(0, 1, 1);
@@ -254,7 +337,7 @@ body.darkmode .darkMode .changeMode2 i {
   }
 }
 
-@keyframes red-flash {
+@keyframes yellow-flash {
   0% {
     -webkit-transform: scale3d(0, 1, 1);
             transform: scale3d(0, 1, 1);

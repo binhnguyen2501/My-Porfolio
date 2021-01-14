@@ -22,13 +22,7 @@
 	.container-Contact {
 		padding: 0 10%;
 	}
-	.AllTitle .homepage-title--mainTitle .line2-contact {
-		width: 55%;
-	}
 	/*ABOUT PAGE*/
-	.AllTitle .homepage-title--mainTitle .line2-about {
-		width: 36%;
-	}
 	.container-About {
 		width: 100%;
 		.container-About--wrapper {
@@ -44,28 +38,11 @@
 		}
 	}
 	/*WORKS*/
-	.AllTitle {
-		.homepage-title--mainTitle .line2-work {
-			width: 25%;
-		}
-	}
 	.container-Works {
 		gap: 2rem;
 		.left--Works,
 		.right--Works {
 			width: 40%;
-			.line2 {
-				left: 30%;
-				width: 41%;
-			}
-			.line2-project2 {
-				left: 25%;
-				width: 50%;
-			}
-			.line2-project3 {
-				left: 33%;
-				width: 33%;
-			}
 		}
 	}
 	/*PROJECT1*/
@@ -119,9 +96,6 @@
 	.AllTitle {
 		width: 100%;
 		padding: 0 8%;
-		.homepage-title--mainTitle .line2-contact {
-			width: 63%;
-		}
 	}
 	.container-Contact {
 		width: 100%;
@@ -134,11 +108,6 @@
 		}
 	}
 	/*ABOUT PAGE*/
-	.AllTitle {
-		.homepage-title--mainTitle .line2-about {
-			width: 45%;
-		}
-	}
 	.container-About {
 		width: 100%;
 		.container-About--wrapper {
@@ -174,28 +143,11 @@
 		}
 	}
 	/*WORKS*/
-	.AllTitle {
-		.homepage-title--mainTitle .line2-work {
-			width: 30%;
-		}
-	}
 	.container-Works {
 		gap: 2rem;
 		.left--Works,
 		.right--Works {
 			width: 45%;
-			.line2 {
-				left: 25%;
-				width: 50%;
-			}
-			.line2-project2 {
-				left: 20%;
-				width: 60%;
-			}
-			.line2-project3 {
-				left: 30%;
-				width: 40%;
-			}
 		}
 	}
 }
