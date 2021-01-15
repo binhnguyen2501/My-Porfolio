@@ -11,16 +11,17 @@
 	.footer {
 		flex-direction: column;
 		justify-content: space-evenly;
-		height: 200px;
+		min-height: 250px;
 		padding: 0 8%;
+		gap: 1.3rem;
+		font-size: 1.3rem;
 		.contact,
 		.tel,
 		.social {
 			width: 100%;
 		}
 		.social {
-			justify-content: flex-start;
-			gap: 2rem;
+			justify-content: space-evenly;
 		}
 	}
 	.container {
@@ -66,7 +67,7 @@
 			}
 			.allWork {
 				display: block;
-				width: 160px;
+				width: 100%;
 				margin-top: 30px;
 				padding: 10px 0;
 				color: $white;
@@ -287,6 +288,9 @@
 	.container-Contact--wrapper,
 	.container-Contact--form {
 		width: 100% !important;
+		form .lastForm .contact-submit {
+			width: 100%;
+		}
 	}
 	.contact-wrapper--social {
 		display: none !important;
@@ -441,6 +445,14 @@
 		}
 		.homepage-title--contentTitle p {
 			font-size: 1.6rem;
+		}
+	}
+	.footer {
+		.social {
+			display: flex;
+			font-size: 1.3rem;
+			gap: 2rem;
+			justify-content: space-evenly;
 		}
 	}
 	/*ABOUT PAGE*/

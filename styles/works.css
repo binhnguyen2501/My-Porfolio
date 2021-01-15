@@ -258,8 +258,10 @@
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    height: 200px;
+    min-height: 250px;
     padding: 0 8%;
+    gap: 1.3rem;
+    font-size: 1.3rem;
   }
   .footer .contact,
   .footer .tel,
@@ -267,10 +269,9 @@
     width: 100%;
   }
   .footer .social {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    gap: 2rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .container {
     display: none;
@@ -334,7 +335,7 @@
   }
   .containerMobile .homepage-titleMobile .allWork {
     display: block;
-    width: 160px;
+    width: 100%;
     margin-top: 30px;
     padding: 10px 0;
     color: #fff;
@@ -610,6 +611,10 @@
   .container-Contact--form {
     width: 100% !important;
   }
+  .container-Contact--wrapper form .lastForm .contact-submit,
+  .container-Contact--form form .lastForm .contact-submit {
+    width: 100%;
+  }
   .contact-wrapper--social {
     display: none !important;
   }
@@ -765,6 +770,16 @@
   }
   .AllTitle .homepage-title--contentTitle p {
     font-size: 1.6rem;
+  }
+  .footer .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.3rem;
+    gap: 2rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   /*ABOUT PAGE*/
   .container-About .container-About--wrapper .About---wrapperTitle .about-name {
