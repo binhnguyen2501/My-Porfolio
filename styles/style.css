@@ -54,6 +54,10 @@ body.darkmode .container
   color: #fff;
 }
 
+body.darkmode .containerMobile .homepage-titleMobile .homepage-title--mainTitle {
+  color: #fff;
+}
+
 body.darkmode .container .container_homepage .homepage-banner--slider .homepage-title a,
 body.darkmode .containerMobile .homepage-titleMobile a {
   color: #333;

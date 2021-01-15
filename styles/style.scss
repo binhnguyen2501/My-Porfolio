@@ -43,6 +43,9 @@ body.darkmode {
 		.homepage-title--mainTitle {
 		color: $white;
 	}
+	.containerMobile .homepage-titleMobile .homepage-title--mainTitle {
+		color: $white;
+	}
 	.container .container_homepage .homepage-banner--slider .homepage-title a,
 	.containerMobile .homepage-titleMobile a {
 		color: $black;
