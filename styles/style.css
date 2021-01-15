@@ -46,7 +46,12 @@ body.darkmode .AllTitle .homepage-title--mainTitle {
   color: #fff;
 }
 
-body.darkmode .container .container_homepage .homepage-banner--slider .homepage-title {
+body.darkmode .container .container_homepage .homepage-banner--slider .homepage-title,
+body.darkmode .container
+.container_homepage
+.homepage-banner--slider
+.homepage-title
+.homepage-title--mainTitle {
   color: #fff;
 }
 
