@@ -42,7 +42,7 @@ body.darkmode .header nav .header__navLinks .header__navLinks---link .link:hover
   color: #e9b911;
 }
 
-body.darkmode .AllTitle {
+body.darkmode .AllTitle .homepage-title--mainTitle {
   color: #fff;
 }
 
