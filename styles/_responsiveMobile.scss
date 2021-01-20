@@ -112,6 +112,7 @@
 		}
 		.homepage-banner--sliderMobile {
 			width: 100%;
+			height: calc(100% + 1px);
 			z-index: 2;
 			overflow-x: scroll;
 			.homepage-banner--sliderMobile_wrapper {
