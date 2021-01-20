@@ -380,8 +380,8 @@
   }
   .containerMobile .homepage-banner--sliderMobile {
     width: 100%;
-    height: calc(100% + 1px);
     z-index: 2;
+    overflow-y: hidden;
     overflow-x: scroll;
   }
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper {
@@ -767,10 +767,10 @@
     font-size: 1.6rem;
   }
   .AllTitle .homepage-title--mainTitle {
-    font-size: 1.8rem;
+    font-size: 1.75rem;
   }
   .AllTitle .homepage-title--contentTitle p {
-    font-size: 1.6rem;
+    font-size: 1.55rem;
   }
   .footer .social {
     display: -webkit-box;
