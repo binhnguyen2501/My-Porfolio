@@ -68,6 +68,14 @@ body.darkmode .containerMobile .homepage-titleMobile a:hover {
   color: #fff;
 }
 
+body.darkmode .container-Contact .container-Contact--form form .lastForm .contact-submit {
+  color: #fff;
+}
+
+body.darkmode .container-Contact .container-Contact--form form .lastForm .contact-submit:hover {
+  color: #333;
+}
+
 body.darkmode .container-Contact
 .container-Contact--wrapper
 .contact-wrapper--social

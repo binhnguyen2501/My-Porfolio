@@ -53,6 +53,12 @@ body.darkmode {
 			color: $white;
 		}
 	}
+	.container-Contact .container-Contact--form form .lastForm .contact-submit {
+		color: $white;
+		&:hover {
+			color: $black;
+		}
+	}
 	.container-Contact
 		.container-Contact--wrapper
 		.contact-wrapper--social
