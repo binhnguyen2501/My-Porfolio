@@ -108,15 +108,14 @@ body.darkmode {
 		border: 3px solid $white;
 	}
 	.changeMode {
-		background: $black;
+		background-color: $black;
 		i {
-			color: $white;
+			color: $mainColor;
 		}
 	}
 	.darkMode .changeMode2 {
-		background: $mainColor;
 		i {
-			color: $white;
+			color: $mainColor;
 		}
 	}
 }

@@ -120,6 +120,13 @@ $black: #333;
 	display: block;
 	z-index: 99998;
 }
+.navbarDarkMode {
+	background-color: $black !important;
+	color: $mainColor !important;
+}
+.menuToggler_bar {
+	background-color: $mainColor !important;
+}
 @keyframes lt-active {
 	70% {
 		width: 51%;

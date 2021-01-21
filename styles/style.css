@@ -146,19 +146,15 @@ body.darkmode .cursor {
 }
 
 body.darkmode .changeMode {
-  background: #333;
+  background-color: #333;
 }
 
 body.darkmode .changeMode i {
-  color: #fff;
-}
-
-body.darkmode .darkMode .changeMode2 {
-  background: #e9b911;
+  color: #e9b911;
 }
 
 body.darkmode .darkMode .changeMode2 i {
-  color: #fff;
+  color: #e9b911;
 }
 
 .changeMode {
@@ -947,6 +943,15 @@ body.darkmode .darkMode .changeMode2 i {
 .openPage {
   display: block;
   z-index: 99998;
+}
+
+.navbarDarkMode {
+  background-color: #333 !important;
+  color: #e9b911 !important;
+}
+
+.menuToggler_bar {
+  background-color: #e9b911 !important;
 }
 
 @-webkit-keyframes lt-active {

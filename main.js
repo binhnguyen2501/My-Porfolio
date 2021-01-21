@@ -71,19 +71,40 @@ const checkbox2 = document.querySelector('.navbarMobile .darkMode .changeMode2')
 const checkbox = document.querySelector('.changeMode');
 const iconMode = document.querySelector('.far');
 const iconMode2 = document.querySelector('.navbarMobile .darkMode .changeMode2 .far');
+const navbarDarkMode = document.querySelectorAll('.navbarMobile .img-mask');
+const navLinkMobile = document.querySelectorAll('.navbarMobile .nav-links--mobile .nav-links--mobile----link .link');
+const navbar_Bar = document.querySelectorAll('.header__menuToggler .bar');
 // check for saved 'darkMode' in localStorage
 let darkMode = localStorage.getItem('darkMode'); 
 
 const enableDarkMode = () => {
-    // 1. Add the class to the body
+    // 1. Add the class apply dark-mode to the body and menuHamberger
     document.body.classList.add('darkmode');
+    navbarDarkMode.forEach(function(el){
+        el.classList.add('navbarDarkMode');
+    })
+    navLinkMobile.forEach(function(el){
+        el.classList.add('navbarDarkMode');
+    })
+    navbar_Bar.forEach(function(el){
+        el.classList.add('menuToggler_bar');
+    })
     // 2. Update darkMode in localStorage
     localStorage.setItem('darkMode', 'enabled');
 }
 
 const disableDarkMode = () => {
-    // 1. Remove the class from the body
+     // 1. Remove the class apply dark-mode to the body and menuHamberger
     document.body.classList.remove('darkmode');
+    navbarDarkMode.forEach(function(el){
+        el.classList.remove('navbarDarkMode');
+    })
+    navLinkMobile.forEach(function(el){
+        el.classList.remove('navbarDarkMode');
+    })
+    navbar_Bar.forEach(function(el){
+        el.classList.remove('menuToggler_bar');
+    })
     // 2. Update darkMode in localStorage 
     localStorage.setItem('darkMode', null);
 }
