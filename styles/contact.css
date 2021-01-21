@@ -173,13 +173,18 @@
   margin-bottom: 5px;
 }
 
-.container-Contact .container-Contact--form button {
-  padding: 10px 20px;
+.container-Contact .container-Contact--form .contact-submit {
+  display: block;
+  width: 130px;
+  height: 44px;
+  line-height: 44px;
   color: #333;
   border: 0.5px solid #e9b911;
   outline: none;
+  text-decoration: none;
   font-weight: 700;
   font-size: 17px;
+  text-align: center;
   cursor: pointer;
   border-radius: 10px;
   position: relative;
@@ -187,11 +192,11 @@
   overflow: hidden;
 }
 
-.container-Contact .container-Contact--form button:hover {
+.container-Contact .container-Contact--form .contact-submit:hover {
   color: #fff;
 }
 
-.container-Contact .container-Contact--form button::after {
+.container-Contact .container-Contact--form .contact-submit::after {
   content: "";
   position: absolute;
   left: 0;
@@ -205,7 +210,7 @@
   z-index: -1;
 }
 
-.container-Contact .container-Contact--form button:hover::after {
+.container-Contact .container-Contact--form .contact-submit:hover::after {
   height: 200%;
 }
 

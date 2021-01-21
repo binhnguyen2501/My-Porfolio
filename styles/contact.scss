@@ -129,13 +129,18 @@ $black: #333;
 			height: auto;
 			margin-bottom: 5px;
 		}
-		button {
-			padding: 10px 20px;
+		.contact-submit {
+			display: block;
+			width: 130px;
+			height: 44px;
+			line-height: 44px;
 			color: $black;
 			border: 0.5px solid $mainColor;
 			outline: none;
+			text-decoration: none;
 			font-weight: 700;
 			font-size: 17px;
+			text-align: center;
 			cursor: pointer;
 			border-radius: 10px;
 			position: relative;
