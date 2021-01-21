@@ -121,7 +121,8 @@
 			.homepage-banner--sliderMobile_wrapper {
 				display: flex;
 				flex-wrap: nowrap;
-				padding: 0 3%;
+				gap: 10%;
+				padding: 0 7%;
 				.slider-img {
 					width: 350px;
 					height: 350px;
@@ -132,7 +133,6 @@
 					position: relative;
 					width: 350px;
 					height: 350px;
-					margin: 0 1rem;
 					border-radius: 0;
 					&:hover .slider1-Content,
 					&:hover .slider2-Content,

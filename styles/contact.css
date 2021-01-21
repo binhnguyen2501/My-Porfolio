@@ -530,7 +530,8 @@
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    padding: 0 3%;
+    gap: 10%;
+    padding: 0 7%;
   }
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .slider-img {
     width: 350px;
@@ -542,7 +543,6 @@
     position: relative;
     width: 350px;
     height: 350px;
-    margin: 0 1rem;
     border-radius: 0;
   }
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll:hover .slider1-Content,
