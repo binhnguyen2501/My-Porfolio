@@ -4,6 +4,15 @@
 	.cursor2 {
 		display: none;
 	}
+	a {
+		user-select: none;
+		-webkit-user-select: none;
+		-webkit-tap-highlight-color: transparent;
+	}
+	.changeMode,
+	.changeMode2 {
+		-webkit-tap-highlight-color: transparent;
+	}
 }
 // 1024px
 @media screen and (max-width: 64em) {

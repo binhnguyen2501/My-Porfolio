@@ -214,6 +214,17 @@
   .cursor2 {
     display: none;
   }
+  a {
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .changeMode,
+  .changeMode2 {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 @media screen and (max-width: 64em) {

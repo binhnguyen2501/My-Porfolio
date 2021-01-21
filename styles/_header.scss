@@ -61,6 +61,7 @@ $black: #333;
 		transform: rotate(0deg);
 		display: none;
 		z-index: 99999;
+		-webkit-tap-highlight-color: transparent;
 		.bar {
 			background: $mainColor;
 			border-radius: 0.8rem;

@@ -588,6 +588,7 @@ body.darkmode .darkMode .changeMode2 i {
           transform: rotate(0deg);
   display: none;
   z-index: 99999;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .header .header__menuToggler .bar {
