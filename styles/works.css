@@ -384,6 +384,9 @@
     overflow-y: hidden;
     overflow-x: scroll;
   }
+  .containerMobile .homepage-banner--sliderMobile::-webkit-scrollbar {
+    display: none;
+  }
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper {
     display: -webkit-box;
     display: -ms-flexbox;

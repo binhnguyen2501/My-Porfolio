@@ -115,6 +115,9 @@
 			z-index: 2;
 			overflow-y: hidden;
 			overflow-x: scroll;
+			&::-webkit-scrollbar {
+				display: none;
+			}
 			.homepage-banner--sliderMobile_wrapper {
 				display: flex;
 				flex-wrap: nowrap;
