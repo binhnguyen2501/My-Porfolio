@@ -38,15 +38,15 @@ $black: #333;
 				span {
 					display: inline-block;
 					opacity: 0;
-					transform: translateY(50px);
+					transform: translateY(50px) translateZ(0);
 					transition: all 0.5s ease;
 				}
 				span.fade {
 					opacity: 1;
-					transform: translateY(0);
+					transform: translateY(0) translateZ(0);
 				}
 				span:hover {
-					transform: scale(2);
+					transform: scale(2) translateZ(0);
 				}
 			}
 		}
@@ -141,7 +141,7 @@ $black: #333;
 				background-color: #bf0a2b;
 				top: 11rem;
 				left: 50%;
-				transform: translateX(-50%);
+				transform: translateX(-50%) translateZ(0);
 			}
 		}
 	}
@@ -191,15 +191,15 @@ $black: #333;
 }
 @keyframes goRight {
 	0% {
-		transform: translateX(5px);
+		transform: translateX(5px) translateZ(0);
 		opacity: 0.5;
 	}
 	50% {
-		transform: translateX(10px);
+		transform: translateX(10px) translateZ(0);
 		opacity: 0.2;
 	}
 	100% {
-		transform: translateX(0);
+		transform: translateX(0) translateZ(0);
 	}
 }
 

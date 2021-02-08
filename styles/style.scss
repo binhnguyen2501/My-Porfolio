@@ -170,7 +170,7 @@ body.darkmode {
 	z-index: 9999;
 }
 .link-grow_cursor {
-	transform: scale(2);
+	transform: scale(2) translateZ(0);
 	background: $black;
 	opacity: 0.3;
 	transition: all 0.1s ease;
@@ -229,7 +229,7 @@ body.darkmode {
 		height: 1.3em;
 		line-height: 1.3em;
 		&:hover {
-			transform: scale(1.1);
+			transform: scale(1.1) translateZ(0);
 		}
 	}
 }
@@ -250,18 +250,18 @@ body.darkmode {
 }
 @keyframes yellow-flash {
 	0% {
-		transform: scale3d(0, 1, 1);
+		transform: scale3d(0, 1, 1) translateZ(0);
 		transform-origin: left center;
 	}
 	50% {
 		transform-origin: left center;
 	}
 	51% {
-		transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1) translateZ(0);
 		transform-origin: right center;
 	}
 	100% {
-		transform: scale3d(0, 1, 1);
+		transform: scale3d(0, 1, 1) translateZ(0);
 		transform-origin: right center;
 	}
 }
@@ -284,18 +284,18 @@ body.darkmode {
 }
 @keyframes slide-in-up {
 	from {
-		transform: translateY(30px);
+		transform: translateY(30px) translateZ(0);
 	}
 	to {
-		transform: translateY(0);
+		transform: translateY(0) translateZ(0);
 	}
 }
 @keyframes slide-in-down {
 	from {
-		transform: translateY(-30px);
+		transform: translateY(-30px) translateZ(0);
 	}
 	to {
-		transform: translateY(0);
+		transform: translateY(0) translateZ(0);
 	}
 }
 

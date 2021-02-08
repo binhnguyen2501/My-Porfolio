@@ -219,8 +219,8 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .link-grow_cursor {
-  -webkit-transform: scale(2);
-          transform: scale(2);
+  -webkit-transform: scale(2) translateZ(0);
+          transform: scale(2) translateZ(0);
   background: #333;
   opacity: 0.3;
   -webkit-transition: all 0.1s ease;
@@ -303,8 +303,8 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .homepage-title--contentTitle p:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) translateZ(0);
+          transform: scale(1.1) translateZ(0);
 }
 
 .AllTitle {
@@ -334,8 +334,8 @@ body.darkmode .darkMode .changeMode2 i {
 
 @-webkit-keyframes yellow-flash {
   0% {
-    -webkit-transform: scale3d(0, 1, 1);
-            transform: scale3d(0, 1, 1);
+    -webkit-transform: scale3d(0, 1, 1) translateZ(0);
+            transform: scale3d(0, 1, 1) translateZ(0);
     -webkit-transform-origin: left center;
             transform-origin: left center;
   }
@@ -344,14 +344,14 @@ body.darkmode .darkMode .changeMode2 i {
             transform-origin: left center;
   }
   51% {
-    -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1) translateZ(0);
+            transform: scale3d(1, 1, 1) translateZ(0);
     -webkit-transform-origin: right center;
             transform-origin: right center;
   }
   100% {
-    -webkit-transform: scale3d(0, 1, 1);
-            transform: scale3d(0, 1, 1);
+    -webkit-transform: scale3d(0, 1, 1) translateZ(0);
+            transform: scale3d(0, 1, 1) translateZ(0);
     -webkit-transform-origin: right center;
             transform-origin: right center;
   }
@@ -359,8 +359,8 @@ body.darkmode .darkMode .changeMode2 i {
 
 @keyframes yellow-flash {
   0% {
-    -webkit-transform: scale3d(0, 1, 1);
-            transform: scale3d(0, 1, 1);
+    -webkit-transform: scale3d(0, 1, 1) translateZ(0);
+            transform: scale3d(0, 1, 1) translateZ(0);
     -webkit-transform-origin: left center;
             transform-origin: left center;
   }
@@ -369,14 +369,14 @@ body.darkmode .darkMode .changeMode2 i {
             transform-origin: left center;
   }
   51% {
-    -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1) translateZ(0);
+            transform: scale3d(1, 1, 1) translateZ(0);
     -webkit-transform-origin: right center;
             transform-origin: right center;
   }
   100% {
-    -webkit-transform: scale3d(0, 1, 1);
-            transform: scale3d(0, 1, 1);
+    -webkit-transform: scale3d(0, 1, 1) translateZ(0);
+            transform: scale3d(0, 1, 1) translateZ(0);
     -webkit-transform-origin: right center;
             transform-origin: right center;
   }
@@ -422,45 +422,45 @@ body.darkmode .darkMode .changeMode2 i {
 
 @-webkit-keyframes slide-in-up {
   from {
-    -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    -webkit-transform: translateY(30px) translateZ(0);
+            transform: translateY(30px) translateZ(0);
   }
   to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(0) translateZ(0);
+            transform: translateY(0) translateZ(0);
   }
 }
 
 @keyframes slide-in-up {
   from {
-    -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    -webkit-transform: translateY(30px) translateZ(0);
+            transform: translateY(30px) translateZ(0);
   }
   to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(0) translateZ(0);
+            transform: translateY(0) translateZ(0);
   }
 }
 
 @-webkit-keyframes slide-in-down {
   from {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    -webkit-transform: translateY(-30px) translateZ(0);
+            transform: translateY(-30px) translateZ(0);
   }
   to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(0) translateZ(0);
+            transform: translateY(0) translateZ(0);
   }
 }
 
 @keyframes slide-in-down {
   from {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    -webkit-transform: translateY(-30px) translateZ(0);
+            transform: translateY(-30px) translateZ(0);
   }
   to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(0) translateZ(0);
+            transform: translateY(0) translateZ(0);
   }
 }
 
@@ -588,8 +588,8 @@ body.darkmode .darkMode .changeMode2 i {
   transition: -webkit-transform 650ms ease-out;
   transition: transform 650ms ease-out;
   transition: transform 650ms ease-out, -webkit-transform 650ms ease-out;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(0deg) translateZ(0);
+          transform: rotate(0deg) translateZ(0);
   display: none;
   z-index: 99999;
   -webkit-tap-highlight-color: transparent;
@@ -635,8 +635,8 @@ body.darkmode .darkMode .changeMode2 i {
 
 .header .header__menuToggler.open {
   /*vì nó là class cha nên đặt tên cho class tác động trên JS phải nằm sau*/
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg) translateZ(0);
+          transform: rotate(-45deg) translateZ(0);
   /*xoay theo chiều Z (tức xoay phẳng 2D)*/
 }
 
@@ -646,14 +646,14 @@ body.darkmode .darkMode .changeMode2 i {
 
 .header .open .bar.start {
   /*vì nó là class con nên đặt tên cho class tác động trên JS phải nằm trước*/
-  -webkit-transform: rotate(-450deg) translateX(0.8rem);
-          transform: rotate(-450deg) translateX(0.8rem);
+  -webkit-transform: rotate(-450deg) translateX(0.8rem) translateZ(0);
+          transform: rotate(-450deg) translateX(0.8rem) translateZ(0);
 }
 
 .header .open .bar.end {
   /*vì nó là class con nên đặt tên cho class tác động trên JS phải nằm trước*/
-  -webkit-transform: rotate(-450deg) translateX(-0.8rem);
-          transform: rotate(-450deg) translateX(-0.8rem);
+  -webkit-transform: rotate(-450deg) translateX(-0.8rem) translateZ(0);
+          transform: rotate(-450deg) translateX(-0.8rem) translateZ(0);
 }
 
 .footer {
@@ -936,8 +936,8 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .navbarMobile .nav-links--mobile .nav-links--mobile----link:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.5) translateZ(0);
+          transform: scale(1.5) translateZ(0);
 }
 
 .openPage {

@@ -58,7 +58,7 @@ $black: #333;
 					width: 90%;
 					margin-bottom: 3rem;
 					&:hover {
-						transform: scale(1.1);
+						transform: scale(1.1) translateZ(0);
 					}
 				}
 			}

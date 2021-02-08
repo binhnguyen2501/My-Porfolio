@@ -58,7 +58,7 @@ $black: #333;
 		justify-content: space-between;
 		cursor: pointer;
 		transition: transform 650ms ease-out;
-		transform: rotate(0deg);
+		transform: rotate(0deg) translateZ(0);
 		display: none;
 		z-index: 99999;
 		-webkit-tap-highlight-color: transparent;
@@ -88,17 +88,17 @@ $black: #333;
 	}
 	.header__menuToggler.open {
 		/*vì nó là class cha nên đặt tên cho class tác động trên JS phải nằm sau*/
-		transform: rotate(-45deg); /*xoay theo chiều Z (tức xoay phẳng 2D)*/
+		transform: rotate(-45deg) translateZ(0); /*xoay theo chiều Z (tức xoay phẳng 2D)*/
 	}
 	.open .bar {
 		background: #dddddd;
 	}
 	.open .bar.start {
 		/*vì nó là class con nên đặt tên cho class tác động trên JS phải nằm trước*/
-		transform: rotate(-450deg) translateX(0.8rem);
+		transform: rotate(-450deg) translateX(0.8rem) translateZ(0);
 	}
 	.open .bar.end {
 		/*vì nó là class con nên đặt tên cho class tác động trên JS phải nằm trước*/
-		transform: rotate(-450deg) translateX(-0.8rem);
+		transform: rotate(-450deg) translateX(-0.8rem) translateZ(0);
 	}
 }

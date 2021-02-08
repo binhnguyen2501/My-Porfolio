@@ -79,8 +79,8 @@
 }
 
 .container-About .container-About--wrapper .About---wrapperSkill .me-img .me:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) translateZ(0);
+          transform: scale(1.1) translateZ(0);
 }
 
 .container-About .container-About--wrapper .About---wrapperSkill h3 {
@@ -487,8 +487,8 @@
     line-height: 1.3em;
   }
   .containerMobile .homepage-titleMobile .homepage-title--contentTitle p:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.1) translateZ(0);
+            transform: scale(1.1) translateZ(0);
   }
   .containerMobile .homepage-titleMobile .allWork {
     display: block;
