@@ -90,9 +90,15 @@ $black: #333;
 	}
 	.container-Contact--form {
 		width: 50%;
-		div {
+		.form-group {
 			margin-bottom: 20px;
 			position: relative;
+		}
+		.form-group .invalid {
+			border-color: $mainColor;
+		}
+		.form-message {
+			color: $mainColor;
 		}
 		input[type="text"],
 		input[type="email"],
@@ -105,16 +111,23 @@ $black: #333;
 			padding-left: 16px;
 			border: 1px #ddd solid;
 			outline: none;
-			border-radius: 15px;
+			border-radius: 10px;
 			appearance: none;
 			-webkit-appearance: none;
 			background: $white;
 		}
+		select {
+			cursor: pointer;
+		}
 		input[type="text"]:focus,
 		input[type="email"]:focus,
 		select:focus,
-		textarea:focus {
-			border-color: #777777;
+		textarea:focus,
+		input[type="text"]:hover,
+		input[type="email"]:hover,
+		select:hover,
+		textarea:hover {
+			border-color: $mainColor;
 		}
 		i.select {
 			position: absolute;

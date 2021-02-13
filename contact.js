@@ -22,4 +22,14 @@ contactMe.addEventListener('mouseleave', function(){
     cursor.classList.remove('link-grow_cursor')
     cursor2.classList.remove('link-grow_cursor2')
 })
-
+/*VALIDATE*/
+Validator({
+    form: '#form1',
+    errorSelector: '.form-message',
+    rules: [
+        Validator.isName('#contact-name'),// isName là fuction cục bộ của Validator(có thể là function bình thường cũng dc)
+        Validator.isEmail('#contact-mail'),
+        Validator.isBudget('#contact-budget'),
+        Validator.isDetail('#contact-detail')
+    ]
+});

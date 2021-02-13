@@ -128,9 +128,17 @@
   width: 50%;
 }
 
-.container-Contact .container-Contact--form div {
+.container-Contact .container-Contact--form .form-group {
   margin-bottom: 20px;
   position: relative;
+}
+
+.container-Contact .container-Contact--form .form-group .invalid {
+  border-color: #e9b911;
+}
+
+.container-Contact .container-Contact--form .form-message {
+  color: #e9b911;
 }
 
 .container-Contact .container-Contact--form input[type="text"],
@@ -144,18 +152,26 @@
   padding-left: 16px;
   border: 1px #ddd solid;
   outline: none;
-  border-radius: 15px;
+  border-radius: 10px;
   -moz-appearance: none;
        appearance: none;
   -webkit-appearance: none;
   background: #fff;
 }
 
+.container-Contact .container-Contact--form select {
+  cursor: pointer;
+}
+
 .container-Contact .container-Contact--form input[type="text"]:focus,
 .container-Contact .container-Contact--form input[type="email"]:focus,
 .container-Contact .container-Contact--form select:focus,
-.container-Contact .container-Contact--form textarea:focus {
-  border-color: #777777;
+.container-Contact .container-Contact--form textarea:focus,
+.container-Contact .container-Contact--form input[type="text"]:hover,
+.container-Contact .container-Contact--form input[type="email"]:hover,
+.container-Contact .container-Contact--form select:hover,
+.container-Contact .container-Contact--form textarea:hover {
+  border-color: #e9b911;
 }
 
 .container-Contact .container-Contact--form i.select {
