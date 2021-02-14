@@ -28,8 +28,13 @@ Validator({
     errorSelector: '.form-message',
     rules: [
         Validator.isName('#contact-name'),// isName là fuction cục bộ của Validator(có thể là function bình thường cũng dc)
+        Validator.isEmailRequired('#contact-mail'),
         Validator.isEmail('#contact-mail'),
         Validator.isBudget('#contact-budget'),
         Validator.isDetail('#contact-detail')
-    ]
+    ],
+    // onSubmit: function(data){
+    //     // Call API
+    //     console.log(data);
+    // }
 });
