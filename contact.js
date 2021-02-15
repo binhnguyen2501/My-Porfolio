@@ -33,8 +33,8 @@ Validator({
         Validator.isBudget('#contact-budget'),
         Validator.isDetail('#contact-detail')
     ],
-    // onSubmit: function(data){
-    //     // Call API
-    //     console.log(data);
-    // }
+    onSubmit: function(data){
+        // Call API
+        console.log(data);
+    }
 });

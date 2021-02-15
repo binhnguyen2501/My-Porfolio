@@ -6,7 +6,7 @@ function Validator(options){
         let errorMessage;
         // lấy các rules của selector
         let rules = selectorRules[rule.selector]
-        // chạy qua từng rules được lấy ra nếu rules nào có lỗi thì dừng luôn mà không xét đến rules sau
+        // chạy qua từng rules được lấy ra nếu rules nào có lỗi thì dừng luôn mà không xét đến rules sau (rule[i]() là một function với inputElement.value là tham số value truyền vào)
         for(let i=0; i<rules.length; i++){
             errorMessage = rules[i](inputElement.value);
             if(errorMessage) break;
@@ -20,6 +20,7 @@ function Validator(options){
             errorElement.innerText = '';
             inputElement.classList.remove('invalid');
         }
+        // trả về errorMessage dưới dạng boolean để biết người dùng đã nhập hết info chưa
         return !errorMessage;
     }
 
@@ -30,7 +31,9 @@ function Validator(options){
         // xử lí event (blur, input) cho tất cả các rule trong form khi ấn nút submit
         formElement.onsubmit = function(e){
             e.preventDefault();
+
             let isFormValid = true;
+
             options.rules.forEach(function(rule){
                 let inputElement = formElement.querySelector(rule.selector);
                 validate(inputElement,rule);
@@ -40,7 +43,7 @@ function Validator(options){
                 if(!isValid){
                     isFormValid = false;
                 }
-            })
+            });
             
             if(isFormValid){
                 // trường hợp lấy data info người dùng bằng JS
@@ -82,7 +85,7 @@ function Validator(options){
         })
     }
 }
-
+// các rule đặt ra cho từng nội dung trong form
 Validator.isName = function(selector){
     return {
         selector: selector,
