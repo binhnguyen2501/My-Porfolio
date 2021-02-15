@@ -25,6 +25,7 @@ contactMe.addEventListener('mouseleave', function(){
 /*VALIDATE*/
 Validator({
     form: '#form1',
+    formGroupSelector: '.form-group',
     errorSelector: '.form-message',
     rules: [
         Validator.isName('#contact-name'),// isName là fuction cục bộ của Validator(có thể là function bình thường cũng dc)

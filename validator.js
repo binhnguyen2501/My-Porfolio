@@ -1,29 +1,5 @@
 // Validator là 1 constructor function
 function Validator(options){
-    
-    function validate(inputElement,rule){
-        const errorElement = inputElement.parentElement.querySelector(options.errorSelector);
-        let errorMessage;
-        // lấy các rules của selector
-        let rules = selectorRules[rule.selector]
-        // chạy qua từng rules được lấy ra nếu rules nào có lỗi thì dừng luôn mà không xét đến rules sau (rule[i]() là một function với inputElement.value là tham số value truyền vào)
-        for(let i=0; i<rules.length; i++){
-            errorMessage = rules[i](inputElement.value);
-            if(errorMessage) break;
-        }
-        // thực hiện xử lí các thông báo khi có lỗi
-        if(errorMessage){
-            errorElement.innerText = errorMessage;
-            inputElement.classList.add('invalid');
-        }
-        else{
-            errorElement.innerText = '';
-            inputElement.classList.remove('invalid');
-        }
-        // trả về errorMessage dưới dạng boolean để biết người dùng đã nhập hết info chưa
-        return !errorMessage;
-    }
-
     let formElement = document.querySelector(options.form);
     let selectorRules = {};
 
@@ -50,7 +26,8 @@ function Validator(options){
                 if(typeof options.onSubmit === 'function'){
                     let formInputInfo = formElement.querySelectorAll('[name]:not([disabled])')
                     let formAllValue = Array.from(formInputInfo).reduce(function(values,input){
-                        return (values[input.name] = input.value) && values;
+                        values[input.name] = input.value;
+                        return values;
                     },{});
                     options.onSubmit(formAllValue);
                 }
@@ -72,8 +49,9 @@ function Validator(options){
             }
 
             let inputElement = formElement.querySelector(rule.selector);
+            
             if(inputElement){
-                const errorElement = inputElement.parentElement.querySelector(options.errorSelector);
+                const errorElement = getErrorElement(inputElement, options.formGroupSelector).querySelector(options.errorSelector);
                 inputElement.onblur = function(){
                     validate(inputElement,rule);
                 }
@@ -84,8 +62,43 @@ function Validator(options){
             }
         })
     }
+
+    // hàm xử lí onblur khi người dùng trỏ đến input mà không nhập info
+    function validate(inputElement,rule){
+        const errorElement = getErrorElement(inputElement, options.formGroupSelector).querySelector(options.errorSelector);
+        let errorMessage;
+        // lấy các rules của selector
+        let rules = selectorRules[rule.selector]
+        // chạy qua từng rules được lấy ra nếu rules nào có lỗi thì dừng luôn mà không xét đến rules sau (rule[i]() là một function với inputElement.value là tham số value truyền vào)
+        for(let i=0; i<rules.length; i++){
+            errorMessage = rules[i](inputElement.value);
+            if(errorMessage) break;
+        }
+        // thực hiện xử lí các thông báo khi có lỗi
+        if(errorMessage){
+            errorElement.innerText = errorMessage;
+            inputElement.classList.add('invalid');
+        }
+        else{
+            errorElement.innerText = '';
+            inputElement.classList.remove('invalid');
+        }
+        // trả về errorMessage dưới dạng boolean để biết người dùng đã nhập hết info chưa
+        return !errorMessage;
+    }
+
+    // hàm tìm thẻ có class là form-group (để errorElement được select đúng cho dù nó không nằm trong thẻ có class là form-group)
+    function getErrorElement(element, selector){
+        while(element.parentElement){
+            if(element.parentElement.matches(selector)){
+                return element.parentElement;
+            }
+            element = element.parentElement;
+        }
+    }
 }
-// các rule đặt ra cho từng nội dung trong form
+
+// các rule đặt ra cho từng nội dung trong form nếu người dùng không tương tác
 Validator.isName = function(selector){
     return {
         selector: selector,
