@@ -557,6 +557,9 @@
     width: 350px;
     height: 350px;
     border-radius: 0;
+    border: 1px solid #e9b911;
+    -webkit-box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1);
   }
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll {
     display: inline-block;
