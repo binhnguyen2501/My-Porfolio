@@ -42,7 +42,7 @@
 
 .container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 {
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 .container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 span {
@@ -55,11 +55,11 @@
   color: #fff;
 }
 
-.container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 p {
+.container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 ul li {
   margin-top: 1rem;
 }
 
-.container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 p strong {
+.container-About .container-About--wrapper .About---wrapperTitle .container-About--content1 ul li strong {
   color: #333;
 }
 
