@@ -96,7 +96,7 @@
 .container .container_homepage .slider3-Content .img-mask {
   position: absolute;
   z-index: 2;
-  background: #e9b911;
+  background: #b23d43;
 }
 
 .container .container_homepage .slider1-Content .lt,
@@ -379,7 +379,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #e9b911;
+  background: #b23d43;
   -webkit-animation-duration: 1000ms;
           animation-duration: 1000ms;
   -webkit-animation-name: yellow-flash;
@@ -417,7 +417,7 @@
   color: #fff;
   text-decoration: none;
   text-align: center;
-  border: 0.5px solid #e9b911;
+  border: 0.5px solid #b23d43;
   outline: none;
   font-weight: 700;
   font-size: 1rem;
@@ -439,7 +439,7 @@
   top: 0;
   width: 100%;
   height: 200%;
-  background: #e9b911;
+  background: #b23d43;
   border-radius: 0 0 50% 50%;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -475,7 +475,7 @@
   width: 33.33%;
   display: block;
   height: 3px;
-  background: #e9b911;
+  background: #b23d43;
 }
 
 @media screen and (max-width: 80em) {
@@ -742,7 +742,7 @@
     color: #fff;
     text-align: center;
     text-decoration: none;
-    border: 0.5px solid #e9b911;
+    border: 0.5px solid #b23d43;
     outline: none;
     font-weight: 700;
     font-size: 1rem;
@@ -762,7 +762,7 @@
     top: 0;
     width: 100%;
     height: 200%;
-    background: #e9b911;
+    background: #b23d43;
     border-radius: 0 0 50% 50%;
     -webkit-transition: 0.8s;
     transition: 0.8s;
@@ -801,7 +801,7 @@
     width: 350px;
     height: 350px;
     border-radius: 0;
-    border: 1px solid #e9b911;
+    border: 1px solid #b23d43;
     -webkit-box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1);
             box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1);
   }
@@ -833,7 +833,7 @@
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .img-mask {
     position: absolute;
     z-index: 2;
-    background: #e9b911;
+    background: #b23d43;
   }
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .lt,
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .lt,

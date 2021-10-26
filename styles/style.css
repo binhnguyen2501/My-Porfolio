@@ -39,7 +39,7 @@ body.darkmode .footer a i {
 
 body.darkmode .footer a:hover,
 body.darkmode .footer a i:hover {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 body.darkmode .header .header__logo a,
@@ -48,7 +48,7 @@ body.darkmode .header nav .header__navLinks .header__navLinks---link .link {
 }
 
 body.darkmode .header nav .header__navLinks .header__navLinks---link .link:hover {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 body.darkmode .AllTitle .homepage-title--mainTitle {
@@ -120,7 +120,7 @@ body.darkmode .container-Contact
 .social
 a
 i:hover {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 body.darkmode .container-About .container-About--wrapper .About---wrapperTitle p span,
@@ -147,7 +147,7 @@ body.darkmode .container-Works .right--Works .Works---wrapper a .mainTitle {
 }
 
 body.darkmode .container-Works .Works---wrapper a:hover .mainTitle {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 body.darkmode .cursor {
@@ -159,11 +159,11 @@ body.darkmode .changeMode {
 }
 
 body.darkmode .changeMode i {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 body.darkmode .darkMode .changeMode2 i {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 .changeMode {
@@ -287,7 +287,7 @@ body.darkmode .darkMode .changeMode2 i {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #e9b911;
+  background: #b23d43;
   -webkit-animation-duration: 1000ms;
           animation-duration: 1000ms;
   -webkit-animation-name: yellow-flash;
@@ -397,7 +397,7 @@ body.darkmode .darkMode .changeMode2 i {
   }
   to {
     opacity: 1;
-    color: #e9b911;
+    color: #b23d43;
   }
 }
 
@@ -407,7 +407,7 @@ body.darkmode .darkMode .changeMode2 i {
   }
   to {
     opacity: 1;
-    color: #e9b911;
+    color: #b23d43;
   }
 }
 
@@ -569,7 +569,7 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .header nav .header__navLinks .header__navLinks---link .link:hover {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 .header nav .header__navLinks .header__navLinks---link:nth-child(4) {
@@ -605,7 +605,7 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .header .header__menuToggler .bar {
-  background: #e9b911;
+  background: #b23d43;
   border-radius: 0.8rem;
   width: 100%;
   height: 4px;
@@ -699,7 +699,7 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .footer .contact a:hover {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 .footer .contact span {
@@ -731,7 +731,7 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .footer .tel a:hover {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 .footer .tel span {
@@ -763,7 +763,7 @@ body.darkmode .darkMode .changeMode2 i {
 }
 
 .footer .social .social-icon:hover {
-  color: #e9b911;
+  color: #b23d43;
 }
 
 .footer .social .social-icon .fab {
@@ -788,7 +788,7 @@ body.darkmode .darkMode .changeMode2 i {
 .navbarMobile .img-mask {
   position: absolute;
   z-index: 99999;
-  background: #e9b911;
+  background: #b23d43;
 }
 
 .navbarMobile .lt {
@@ -956,11 +956,11 @@ body.darkmode .darkMode .changeMode2 i {
 
 .navbarDarkMode {
   background-color: #333 !important;
-  color: #e9b911 !important;
+  color: #b23d43 !important;
 }
 
 .menuToggler_bar {
-  background-color: #e9b911 !important;
+  background-color: #b23d43 !important;
 }
 
 @-webkit-keyframes lt-active {
