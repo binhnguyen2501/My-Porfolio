@@ -32,10 +32,14 @@ $black: #333;
 			.container-About--content1 {
 				width: 100%;
 				margin-top: 5rem;
-				span {
+				.title {
 					color: $black;
 					font-size: 1.5rem;
 					font-weight: 700;
+				}
+				.position {
+					color: $black;
+					font-weight: 650;
 				}
 				.changeColor {
 					color: $white;
@@ -80,34 +84,39 @@ $black: #333;
 				list-style: none;
 				text-align: left;
 				width: 100%;
-				.date {
-					border-bottom: 1px solid #888888;
-					margin-bottom: 1rem;
-					padding-bottom: 1rem;
-					position: relative;
-					list-style: none;
-					&::after,
-					&::before {
-						position: absolute;
-						display: block;
-						top: 15%;
-						transform: translateY(-50%);
-					}
-					&::after {
-						content: "";
-						box-shadow: 0 0 0 4px $black;
-						border-radius: 100%;
-						left: -2.5rem;
-						height: 0.8rem;
-						width: 0.8rem;
-						background-color: $white;
-					}
-					&::before {
-						content: attr(date-date);
-						left: -15.5rem;
-						text-align: right;
-						min-width: 12rem;
-						font-size: 1rem;
+				ul {
+					.date {
+						.title {
+							font-weight: 650;
+						}
+						border-bottom: 1px solid #888888;
+						margin-bottom: 1rem;
+						padding-bottom: 1rem;
+						position: relative;
+						list-style: none;
+						&::after,
+						&::before {
+							position: absolute;
+							display: block;
+							top: 15%;
+							transform: translateY(-50%);
+						}
+						&::after {
+							content: "";
+							box-shadow: 0 0 0 4px $black;
+							border-radius: 100%;
+							left: -2.5rem;
+							height: 0.8rem;
+							width: 0.8rem;
+							background-color: $white;
+						}
+						&::before {
+							content: attr(date-date);
+							left: -15.5rem;
+							text-align: right;
+							min-width: 12rem;
+							font-size: 1rem;
+						}
 					}
 				}
 			}
@@ -174,15 +183,19 @@ $black: #333;
 		display: none;
 		width: 100%;
 		margin-top: 2rem;
-		span {
+		.title {
 			color: $black;
 			font-size: 1.5rem;
 			font-weight: 700;
 		}
+		.position {
+			color: $black;
+			font-weight: 650;
+		}
 		.changeColor {
 			color: $white;
 		}
-		p {
+		ul li {
 			margin-top: 1rem;
 			strong {
 				color: $black;
