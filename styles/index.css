@@ -531,7 +531,7 @@
   .container-Works .right--Works {
     width: 40%;
   }
-  /*PROJECT1*/
+  /*PROJECT1 & PROJECT2*/
   .top {
     height: 600px;
   }
@@ -1098,7 +1098,7 @@
     width: 100%;
     padding: 0 1rem;
   }
-  /*PROJECT1*/
+  /*PROJECT1 & PROJECT2*/
   .top {
     height: 700px;
   }
@@ -1111,7 +1111,7 @@
   .top .container-project .caption__text .text-project span {
     font-size: 1rem;
   }
-  .top .container-project .caption__main .text-project1 span {
+  .top .container-project .caption__main .text-projectTitle span {
     font-size: 3rem;
   }
   .content {
@@ -1151,6 +1151,19 @@
   }
   .content .nextproject .nextproject-caption h2 a {
     font-size: 3.2rem;
+  }
+  /*PROJECT3*/
+  .content .container-iner .content__img .content__imgflex .content_img-flexrow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content .container-iner .content__img .content__imgflex img {
+    width: 80% !important;
+  }
+  .content .container-iner .content__img .background--img {
+    height: 60%;
   }
 }
 
@@ -1198,11 +1211,11 @@
     width: 100%;
     padding: 0 0.5rem;
   }
-  /*PROJECT1*/
+  /*PROJECT1 & PROJECT2*/
   .top .container-project .caption__text .text-project span {
     font-size: 1rem;
   }
-  .top .container-project .caption__main .text-project1 span {
+  .top .container-project .caption__main .text-projectTitle span {
     font-size: 2.5rem;
   }
   .content .nextproject .nextproject-caption p {
@@ -1210,6 +1223,19 @@
   }
   .content .nextproject .nextproject-caption h2 a {
     font-size: 2.5rem;
+  }
+  /*PROJECT3*/
+  .content .container-iner .content__img .content__imgflex .content_img-flexrow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content .container-iner .content__img .content__imgflex img {
+    width: 80% !important;
+  }
+  .content .container-iner .content__img .background--img {
+    height: 60%;
   }
 }
 /*# sourceMappingURL=index.css.map */
