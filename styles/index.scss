@@ -48,7 +48,6 @@ $black: #333;
 			height: 480px;
 			margin: 0 -16.5rem;
 			border-radius: 8%;
-			cursor: pointer;
 		}
 		.sliderAll:hover .slider1-Content,
 		.sliderAll:hover .slider2-Content,
@@ -160,8 +159,12 @@ $black: #333;
 			}
 			.moreBtn {
 				position: absolute;
-				padding-left: 8%;
-				padding-right: 8%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-left: 8%;
+				padding-top: 1%;
+				padding-bottom: 1%;
 				z-index: 3;
 				left: 0;
 				bottom: 10%;
@@ -170,8 +173,28 @@ $black: #333;
 				font-size: 1rem;
 				text-decoration: none;
 				color: $white;
-				&:hover {
-					transform: translateX(1.5rem) translateZ(0);
+				cursor: pointer;
+				&:hover polygon, &:hover path {
+					transition: all 1s ease;
+				}
+				&:hover .arrow {
+					animation: arrow-anim 2.5s ease infinite;
+				}
+				&:hover .arrow-fixed {
+					animation: arrow-fixed-anim 2.5s ease infinite;
+				}
+				.arrowLink {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin-left: 0.5rem;
+					svg {
+						fill: $white;
+						overflow: visible;
+						polygon, path {
+							transition: all 0.5s ease;
+						}
+					}
 				}
 			}
 		}
@@ -347,6 +370,30 @@ $black: #333;
 				}
 			}
 		}
+	}
+}
+@keyframes arrow-anim {
+	0% {
+	  opacity: 1;
+	  transform: translateX(0);
+	}
+	5% {
+	  transform: translateX(-0.1rem);
+	}
+	100% {
+	  transform: translateX(1rem);
+	  opacity: 0;
+	}
+}
+@keyframes arrow-fixed-anim {
+	5% {
+	  opacity: 0;
+	}
+	20% {
+	  opacity: 0.4;
+	}
+	100% {
+	  opacity: 1;
 	}
 }
 @import "./responsiveTablet";
