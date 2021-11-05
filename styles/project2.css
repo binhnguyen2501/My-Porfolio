@@ -874,9 +874,9 @@
   .container-Contact--form {
     width: 100% !important;
   }
-  .container-Contact--wrapper form .lastForm .contact-submit,
-  .container-Contact--form form .lastForm .contact-submit {
-    width: 100%;
+  .container-Contact--wrapper .contact-submit,
+  .container-Contact--form .contact-submit {
+    width: 100% !important;
   }
   .contact-wrapper--social {
     display: none !important;

@@ -311,8 +311,8 @@
 	.container-Contact--wrapper,
 	.container-Contact--form {
 		width: 100% !important;
-		form .lastForm .contact-submit {
-			width: 100%;
+		.contact-submit {
+			width: 100% !important;
 		}
 	}
 	.contact-wrapper--social {
