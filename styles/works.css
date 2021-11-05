@@ -572,8 +572,18 @@
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn,
   .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn {
     position: absolute;
-    padding-left: 8%;
-    padding-right: 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     z-index: 3;
     left: 0;
     bottom: 10%;
@@ -582,12 +592,55 @@
     font-size: 1rem;
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
   }
-  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn:hover,
-  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn:hover,
-  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn:hover {
-    -webkit-transform: translateX(1.5rem);
-            transform: translateX(1.5rem);
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn:hover polygon, .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn:hover path,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn:hover polygon,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn:hover path,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn:hover polygon,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn:hover path {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn:hover .arrow,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn:hover .arrow,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn:hover .arrow {
+    -webkit-animation: arrow-anim 2.5s ease infinite;
+            animation: arrow-anim 2.5s ease infinite;
+  }
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn:hover .arrow-fixed,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn:hover .arrow-fixed,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn:hover .arrow-fixed {
+    -webkit-animation: arrow-fixed-anim 2.5s ease infinite;
+            animation: arrow-fixed-anim 2.5s ease infinite;
+  }
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn .arrowLink,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn .arrowLink,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn .arrowLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0.5rem;
+  }
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn .arrowLink svg,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn .arrowLink svg,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn .arrowLink svg {
+    fill: #fff;
+    overflow: visible;
+  }
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn .arrowLink svg polygon, .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider1-Content .moreBtn .arrowLink svg path,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn .arrowLink svg polygon,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider2-Content .moreBtn .arrowLink svg path,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn .arrowLink svg polygon,
+  .containerMobile .homepage-banner--sliderMobile .homepage-banner--sliderMobile_wrapper .sliderAll .slider3-Content .moreBtn .arrowLink svg path {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   /*CONTACT PAGE*/
   .header__menuToggler {
