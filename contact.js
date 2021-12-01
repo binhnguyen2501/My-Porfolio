@@ -11,6 +11,7 @@ window.addEventListener("scroll", function () {
     navbarMobile.style.cssText = "display: none";
   }
 });
+
 /*CURSOR*/
 const contactMe = document.querySelector(
   ".container-Contact .container-Contact--form .contact-submit"
@@ -23,6 +24,7 @@ contactMe.addEventListener("mouseleave", function () {
   cursor.classList.remove("link-grow_cursor");
   cursor2.classList.remove("link-grow_cursor2");
 });
+
 /*VALIDATE*/
 Validator({
   form: "#form1",

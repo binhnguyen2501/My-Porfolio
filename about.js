@@ -11,6 +11,7 @@ window.addEventListener("scroll", function () {
     navbarMobile.style.cssText = "display: none";
   }
 });
+
 /*CURSOR*/
 const me_img = document.querySelector(".me-img");
 me_img.addEventListener("mouseover", function () {
@@ -23,6 +24,7 @@ me_img.addEventListener("mouseleave", function () {
   cursor2.classList.remove("link-grow_cursor2");
   me_img.style.cssText = "cursor: none";
 });
+
 const eachSkill = document.querySelectorAll(".skill p");
 eachSkill.forEach((allSkills) => {
   allSkills.addEventListener("mouseover", function () {

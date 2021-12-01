@@ -10,6 +10,7 @@ sliderAll.forEach((allslide) => {
     cursor2.classList.remove("link-grow_cursor2");
   });
 });
+
 const chuyenslide = document.querySelector(".chuyenslide");
 chuyenslide.addEventListener("mouseover", function () {
   cursor.classList.add("link-grow_cursor");
@@ -19,6 +20,7 @@ chuyenslide.addEventListener("mouseleave", function () {
   cursor.classList.remove("link-grow_cursor");
   cursor2.classList.remove("link-grow_cursor2");
 });
+
 const allWork = document.querySelector(".allWork");
 allWork.addEventListener("mouseover", function () {
   cursor.classList.add("link-grow_cursor");
@@ -28,6 +30,7 @@ allWork.addEventListener("mouseleave", function () {
   cursor.classList.remove("link-grow_cursor");
   cursor2.classList.remove("link-grow_cursor2");
 });
+
 /*SLIDER*/
 const slider = document.querySelector(".homepage-banner--slider ul");
 const slide = document.querySelectorAll(".homepage-banner--slider li");
